@@ -11,7 +11,6 @@ const routes = [
   '/guides/system-requirements/',
   '/guides/cloud-dma-setup/',
   '/contact/',
-  '/affiliate-disclosure/',
   '/privacy/',
   '/terms/',
   '/blog/',

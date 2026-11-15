@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T10:38:12.507Z",
-  "count": 472,
+  "generatedAt": "2026-11-15T10:43:46.042Z",
+  "count": 445,
   "anchors": [
     {
       "page": "/about/",
@@ -251,214 +251,6 @@
       "rel": ""
     },
     {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "ARC Cheats",
-      "normalized": "arc cheats",
-      "href": "/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "Features primary nav",
-      "normalized": "features primary nav",
-      "href": "/#features",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "ESP primary nav",
-      "normalized": "esp primary nav",
-      "href": "/arc-raiders-esp/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "Aimbot primary nav",
-      "normalized": "aimbot primary nav",
-      "href": "/arc-raiders-aimbot/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "Ban guide primary nav",
-      "normalized": "ban guide primary nav",
-      "href": "/arc-raiders-account-vs-hardware-ban/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "FAQ primary nav",
-      "normalized": "faq primary nav",
-      "href": "/faq/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "Features mobile menu",
-      "normalized": "features mobile menu",
-      "href": "/#features",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "ESP mobile menu",
-      "normalized": "esp mobile menu",
-      "href": "/arc-raiders-esp/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "Aimbot mobile menu",
-      "normalized": "aimbot mobile menu",
-      "href": "/arc-raiders-aimbot/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "Ban guide mobile menu",
-      "normalized": "ban guide mobile menu",
-      "href": "/arc-raiders-account-vs-hardware-ban/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "header",
-      "text": "FAQ mobile menu",
-      "normalized": "faq mobile menu",
-      "href": "/faq/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "Home",
-      "normalized": "home",
-      "href": "/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "ARC Cheats site footer",
-      "normalized": "arc cheats site footer",
-      "href": "/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "Features",
-      "normalized": "features",
-      "href": "/#features",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "ESP",
-      "normalized": "esp",
-      "href": "/arc-raiders-esp/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "Aimbot",
-      "normalized": "aimbot",
-      "href": "/arc-raiders-aimbot/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "Ban guide",
-      "normalized": "ban guide",
-      "href": "/arc-raiders-account-vs-hardware-ban/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "FAQ",
-      "normalized": "faq",
-      "href": "/faq/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "Pricing",
-      "normalized": "pricing",
-      "href": "/#products",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "All products",
-      "normalized": "all products",
-      "href": "/go/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "Hyper-V setup guide",
-      "normalized": "hyper-v setup guide",
-      "href": "/guides/cloud-dma-setup/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "PC requirements",
-      "normalized": "pc requirements",
-      "href": "/guides/system-requirements/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "Support",
-      "normalized": "support",
-      "href": "/support/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "Who publishes this site",
-      "normalized": "who publishes this site",
-      "href": "/about/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "Analytics and cookie notice",
-      "normalized": "analytics and cookie notice",
-      "href": "/privacy/",
-      "rel": ""
-    },
-    {
-      "page": "/affiliate-disclosure/",
-      "region": "breadcrumb",
-      "text": "Purchase and refund rules",
-      "normalized": "purchase and refund rules",
-      "href": "/terms/",
-      "rel": ""
-    },
-    {
       "page": "/arc-raiders-account-vs-hardware-ban/",
       "region": "header",
       "text": "ARC Cheats",
@@ -560,14 +352,6 @@
       "text": "support tickets",
       "normalized": "support tickets",
       "href": "/contact/",
-      "rel": ""
-    },
-    {
-      "page": "/arc-raiders-account-vs-hardware-ban/",
-      "region": "breadcrumb",
-      "text": "checkout commission statement",
-      "normalized": "checkout commission statement",
-      "href": "/affiliate-disclosure/",
       "rel": ""
     },
     {
@@ -1549,9 +1333,9 @@
     {
       "page": "/contact/",
       "region": "breadcrumb",
-      "text": "partner commission statement",
-      "normalized": "partner commission statement",
-      "href": "/affiliate-disclosure/",
+      "text": "independent publisher about page",
+      "normalized": "independent publisher about page",
+      "href": "/about/",
       "rel": ""
     },
     {
@@ -1821,9 +1605,9 @@
     {
       "page": "/faq/",
       "region": "breadcrumb",
-      "text": "editorial commission disclosure",
-      "normalized": "editorial commission disclosure",
-      "href": "/affiliate-disclosure/",
+      "text": "checkout label contact form",
+      "normalized": "checkout label contact form",
+      "href": "/contact/",
       "rel": ""
     },
     {
@@ -2157,9 +1941,9 @@
     {
       "page": "/guides/cloud-dma-setup/",
       "region": "breadcrumb",
-      "text": "affiliate earnings disclosure",
-      "normalized": "affiliate earnings disclosure",
-      "href": "/affiliate-disclosure/",
+      "text": "about publisher notes",
+      "normalized": "about publisher notes",
+      "href": "/about/",
       "rel": ""
     },
     {
@@ -3365,9 +3149,9 @@
     {
       "page": "/support/",
       "region": "breadcrumb",
-      "text": "affiliate commission policy",
-      "normalized": "affiliate commission policy",
-      "href": "/affiliate-disclosure/",
+      "text": "contact routing article",
+      "normalized": "contact routing article",
+      "href": "/contact/",
       "rel": ""
     },
     {

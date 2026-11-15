@@ -22,7 +22,6 @@ const ROUTES = new Set([
   '/terms/',
   '/faq/',
   '/contact/',
-  '/affiliate-disclosure/',
 ]);
 
 function routeFromFile(file) {

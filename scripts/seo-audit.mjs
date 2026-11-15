@@ -21,7 +21,6 @@ const AUDIT_HTML_ROUTES = new Set([
   '/terms/',
   '/faq/',
   '/contact/',
-  '/affiliate-disclosure/',
 ]);
 
 const BY_CATEGORY = {

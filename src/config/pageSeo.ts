@@ -69,11 +69,6 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
     description:
       'Terms and acceptable-use notes for plans listed on arc-cheats.net. Vendor checkout terms apply when you complete a purchase.',
   },
-  '/affiliate-disclosure/': {
-    title: 'Affiliate Disclosure | Arc Cheats Commission Policy',
-    description:
-      'How arc-cheats.net uses affiliate checkout links, what we earn, and how that affects product recommendations on Arc Raiders guides.',
-  },
   '/contact/': {
     title: 'Contact ARC Cheats Support | Orders & License Help',
     description:

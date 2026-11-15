@@ -442,7 +442,7 @@ export const en: Translations = {
         {
           heading: 'How we earn',
           paragraphs: [
-            'Some checkout links are affiliate URLs. Commissions do not change list prices on the vendor page. Read the on-site disclosure before you buy.',
+            'Some checkout links are partner URLs. Commissions do not change list prices on the vendor page.',
             'Checkout bridges under /go/ are excluded from search indexing so crawlers focus on guides, not interim redirect HTML.',
           ],
         },
@@ -473,7 +473,7 @@ export const en: Translations = {
           heading: 'United States shoppers',
           paragraphs: [
             'Copy targets PC players researching modules in English. Prices preview in USD; tax lines appear on the vendor cart based on your billing address.',
-            'Affiliate disclosure satisfies labeling expectations for US readers; international shoppers should still read vendor terms in their jurisdiction.',
+            'Checkout labeling on guides targets US readers; international shoppers should still read vendor terms in their jurisdiction.',
             'Support hours follow US business-day patterns even though vendors may answer globally.',
           ],
         },

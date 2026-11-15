@@ -30,6 +30,7 @@ export default defineConfig({
     '/cheats/elite/': '/',
     '/cheats/compare/': '/blog/dota-2-lite-vs-pro/',
     '/dota-2-vac-ban-risk/': '/arc-raiders-account-vs-hardware-ban/',
+    '/affiliate-disclosure/': '/about/',
   },
   compressHTML: true,
   prefetch: {

@@ -24,7 +24,7 @@ Launcher messages change between patches. Document the exact text and timestamp 
 
 ## What Embark says about anti-cheat enforcement
 
-Read the current terms and anti-cheat statements on Embark-owned channels before purchasing any overlay software. Our [checkout commission statement](/affiliate-disclosure/) explains how affiliate links work on arc-cheats.net.
+Read the current terms and anti-cheat statements on Embark-owned channels before purchasing any overlay software. Checkout on this domain routes through vendor partner bridges.
 
 ## Plan previews (not ban insurance)
 

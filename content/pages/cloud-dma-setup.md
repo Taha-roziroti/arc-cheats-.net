@@ -56,7 +56,7 @@ If your motherboard hides VT-d or IOMMU groups behind OEM names, search the vend
 
 DMA add-ons bill separately from the $35 / $150 core bundle shown on the homepage hero. Checkout may show a subscription for cloud relay time plus hardware deposit language.
 
-Affiliate links on this domain do not change those totals; they only attribute the sale. Read the [affiliate earnings disclosure](/affiliate-disclosure/) if you want to know how we earn from your cart.
+Checkout bridges on this domain do not change vendor list prices; they only attribute the sale. See the [about publisher notes](/about/) for how we document modules.
 
 ## Support routing
 

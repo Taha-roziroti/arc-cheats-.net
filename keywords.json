@@ -65,7 +65,6 @@
     }
   ],
   "additional_pages": [
-    { "path": "/affiliate-disclosure/", "type": "Trust and legal information" },
     { "path": "/contact/", "type": "Contact and support" }
   ],
   "excluded_pages_pending_verification": [
