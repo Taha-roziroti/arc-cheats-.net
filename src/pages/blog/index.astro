@@ -52,6 +52,66 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
     <link slot="head" rel="preload" as="image" href={lcpImage} type="image/webp" fetchpriority="high" />
   )}
 
+  <article class="content-markdown blog-page-shell border-b border-border bg-muted/10 py-8 md:py-10">
+    <div class="mx-auto max-w-3xl px-5">
+      <h1>What this blog proves</h1>
+      <p>
+        Posts track when we refresh Arc Raiders module stills, adjust plan previews such as <strong>$35 monthly</strong> or <strong>$150 lifetime</strong>, or rename checkout bridges.
+        Each article should cite a dated screenshot or vendor policy change—not generic hype.
+      </p>
+      <p>
+        For live feature depth, start on the <a href="/">main checkout hero on home</a>, then the <a href="/arc-raiders-esp/">ESP marker gallery article</a> and <a href="/arc-raiders-aimbot/">aimbot tuning article</a>.
+        Billing disputes still belong to the vendor inbox named on your receipt.
+      </p>
+      <h2>FAQ clusters mirrored here</h2>
+      <p>
+        Blog tags align with FAQ topics: Windows setup, checkout routing, ban risk, and optional DMA add-ons.
+        Read the <a href="/faq/">accordion FAQ hub</a> for accordion answers; use blog posts for dated release notes when we publish them.
+      </p>
+      <h2>Vendor offers we do not mirror</h2>
+      <p>
+        Flash coupons and bundle SKUs appear only on the Zadeyo cart after you follow a checkout bridge.
+        Posts here document when we retitle a guide—not when a vendor runs a private sale.
+      </p>
+      <h2>Proof checklist for editors</h2>
+      <ul>
+        <li>Every post that mentions ESP must link to a still under <code>/images/showcase/</code>.</li>
+        <li>Plan posts must cite the homepage figures (<strong>$35</strong> / <strong>$150</strong>) as previews.</li>
+        <li>Ban posts must link the <a href="/arc-raiders-account-vs-hardware-ban/">account versus hardware explainer</a>.</li>
+        <li>Support-only steps belong in the <a href="/support/">ticket formatting article</a>, not in a blog promo.</li>
+      </ul>
+      <h2>Patch-week publishing cadence</h2>
+      <p>
+        When Embark ships a client build, we queue a blog note only after fresh stills land on ESP, aim, or ban pages.
+        Until then, module articles remain the source of truth.
+      </p>
+      <p>
+        Readers comparing hardware risk should read the <a href="/arc-raiders-account-vs-hardware-ban/">ban explainer</a> before threads in the <a href="/forum/">community forum index</a>.
+      </p>
+      <h2>Checkout reminders in articles</h2>
+      <p>
+        Blog posts must link to the vendor cart only through documented <a href="/go/">checkout bridges</a>.
+        Prices in prose stay previews until the receipt shows a charge.
+      </p>
+      <h2>Module cross-links editors must keep</h2>
+      <p>
+        ESP write-ups should cite skeleton, loot, and inventory stills by filename.
+        Aim pieces should reference FOV and smoothing sliders shown on the aimbot money page.
+        Hardware posts should cite outdoor versus indoor FPS stress tests from the requirements guide.
+      </p>
+      <h2>Support versus blog voice</h2>
+      <p>
+        Blog voice is editorial; it does not replace vendor support macros.
+        When a post mentions licenses or HWID resets, link the <a href="/support/">support intake checklist</a> instead of improvising refund rules.
+      </p>
+      <h2>Affiliate labeling in posts</h2>
+      <p>
+        Any article with a checkout link must mention that the URL may earn a commission, mirroring the <a href="/affiliate-disclosure/">on-site disclosure</a>.
+        Do not promise lower prices via our links—vendor carts set totals.
+      </p>
+    </div>
+  </article>
+
   <section class="py-8 md:py-12">
     <div class="mx-auto max-w-6xl px-5">
       <Breadcrumbs items={breadcrumbs} />
@@ -63,7 +123,7 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
     <div class="mx-auto max-w-6xl px-5">
       <header class="section-header max-w-2xl">
         <p class="section-header__eyebrow">{t.blog.eyebrow}</p>
-        <h1 id="blog-latest-title" class="section-header__title">{t.blog.latestTitle}</h1>
+        <h2 id="blog-latest-title" class="section-header__title">{t.blog.latestTitle}</h2>
         <p class="section-header__subtitle">{t.blog.latestSubtitle}</p>
       </header>
 

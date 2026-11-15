@@ -21,7 +21,7 @@ const faqs = getAllFaqs();
   logoAlt="FAQ – site logo"
   jsonLd={[
     webPageSchema({
-      name: 'FAQ',
+      name: seo.title,
       description: seo.description,
       url: '/faq/',
     }),
@@ -35,6 +35,70 @@ const faqs = getAllFaqs();
     </div>
   </section>
 
+  <article class="content-markdown faq-page-shell border-b border-border bg-muted/20 py-10 md:py-12">
+    <div class="mx-auto max-w-3xl px-5">
+      <h2>Plan previews and checkout proof</h2>
+      <p>
+        The homepage hero lists <strong>$35 monthly</strong> and <strong>$150 lifetime</strong> as budgeting numbers for the core Arc Raiders bundle.
+        Your vendor cart shows tax, coupons, and the binding USD charge—use these FAQs when a line item on the receipt does not match guide copy.
+      </p>
+      <p>
+        Screenshot proof lives on money pages: skeleton ESP, loot filters, menu tabs, and indoor breach lighting under <code>/images/showcase/</code>.
+        Compare stills on the <a href="/arc-raiders-esp/">loot and player marker guide</a> before you assume a feature ships in your key.
+      </p>
+      <h2>What each FAQ cluster covers</h2>
+      <ul>
+        <li><strong>Plans</strong> — renewal, lifetime HWID policy, and when DMA or HWID SKUs bill separately.</li>
+        <li><strong>Windows setup</strong> — 64-bit builds, GPU headroom, and links to the <a href="/guides/system-requirements/">PC requirements walkthrough</a>.</li>
+        <li><strong>Checkout</strong> — how affiliate bridges attribute sales without changing list price.</li>
+        <li><strong>Risk</strong> — factual differences between account strikes and hardware flags on the <a href="/arc-raiders-account-vs-hardware-ban/">ban explainer page</a>.</li>
+      </ul>
+      <h2>Offers that are not on this domain</h2>
+      <p>
+        arc-cheats.net does not run flash sales or coupon codes. Vendor promotions appear only on their checkout page.
+        Optional Cloud DMA preparation is documented in the <a href="/guides/cloud-dma-setup/">Hyper-V DMA prep walkthrough</a> when that SKU is in your cart.
+      </p>
+      <h2>When to email support instead</h2>
+      <p>
+        License resends, HWID resets, and refund windows are handled by the vendor inbox on your receipt.
+        Use the <a href="/support/">pre-checkout support article</a> for formatting tickets with Windows build numbers and screenshots.
+        Editorial questions about affiliate labels belong on the <a href="/affiliate-disclosure/">editorial commission disclosure</a>.
+      </p>
+      <h2>Proof we update after patches</h2>
+      <p>
+        When UI density or lighting changes after an Embark patch, we replace showcase stills and adjust module copy—not live telemetry from your PC.
+        Report outdated captions through the <a href="/contact/">contact routing article</a> with the page URL in the first line.
+      </p>
+      <h2>Offer table (preview only)</h2>
+      <table>
+        <thead>
+          <tr><th>SKU</th><th>Preview</th><th>Verify on vendor cart</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Core bundle</td><td>$35 / month or $150 lifetime</td><td>Tax, coupon, currency</td></tr>
+          <tr><td>Cloud DMA</td><td>Add-on line item</td><td>Firmware deposit language</td></tr>
+          <tr><td>HWID utility</td><td>Separate SKU</td><td>Reset limits per receipt</td></tr>
+        </tbody>
+      </table>
+      <h2>Still proof you can match to FAQs</h2>
+      <p>
+        Skeleton ESP (<code>arc-esp-skeleton.webp</code>), loot overlay (<code>arc-esp-loot-overlay.webp</code>), and menu inventory (<code>arc-menu-inventory.webp</code>) back answers about visibility and UI load.
+        Indoor breach stills support DMA and aim tuning questions without guessing at your FPS.
+      </p>
+      <p>
+        Still filenames are listed so support tickets and forum threads can cite the same asset accountants see in the repo.
+      </p>
+      <h2>Aim and ESP quick answers</h2>
+      <p>
+        Aim sliders affect smoothing and stickiness—not server tick or latency by themselves.
+        ESP toggles may hide allies, ARC drones, or containers independently; confirm each filter on the module article before checkout.
+      </p>
+      <p>
+        If a feature is missing from stills on this domain, treat it as unpublished until we add dated proof.
+      </p>
+    </div>
+  </article>
+
   <SiteFaqSection
     items={faqs}
     variant="full"
@@ -43,6 +107,6 @@ const faqs = getAllFaqs();
     eyebrow="Help center"
     title="Straight answers before checkout"
     subtitle="Plans, Windows build, checkout bridges, and module links."
-    class="border-b border-border bg-muted/10"
+    class="faq-page-shell border-b border-border bg-muted/10"
   />
 </BaseLayout>

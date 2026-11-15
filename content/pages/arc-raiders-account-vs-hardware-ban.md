@@ -1,5 +1,5 @@
 ---
-title: "Arc Raiders Account vs Hardware Ban Guide Explained"
+title: "Arc Raiders Ban Guide | Account vs Hardware Explained"
 description: "Learn how Arc Raiders account and hardware bans differ, review official enforcement details, and check the facts before contacting support."
 slug: "/arc-raiders-account-vs-hardware-ban/"
 ---

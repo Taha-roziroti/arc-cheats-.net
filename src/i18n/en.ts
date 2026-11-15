@@ -48,7 +48,7 @@ export const en: Translations = {
     status: 'Windows 10 and 11',
     eyebrow: PLACEHOLDER_COPY.eyebrow,
     titleLine1: 'Arc Raiders Cheats',
-    titleLine2: 'ESP, Aimbot & Feature Details',
+    titleLine2: 'ESP, Aimbot & Feature Details · arc cheats',
     subtitle: PLACEHOLDER_COPY.subtitle,
     ctaPrimary: PLACEHOLDER_COPY.cta,
     ctaDiscord: 'Ban guide',
@@ -422,7 +422,7 @@ export const en: Translations = {
   },
   legalPages: {
     about: {
-      title: 'Independent ARC Raiders Product Guides',
+      title: 'About ARC Cheats | Independent Product Publisher',
       description: `Who publishes ${SITE_DOMAIN}, how we test screenshots, and how affiliate checkout works.`,
       sections: [
         {
@@ -477,6 +477,13 @@ export const en: Translations = {
             'Support hours follow US business-day patterns even though vendors may answer globally.',
           ],
         },
+        {
+          heading: 'Publisher identity',
+          paragraphs: [
+            'About ARC Cheats documents who publishes arc-cheats.net, how we earn from affiliate checkout, and which modules we screenshot on PC test rigs.',
+            'We are a publisher of independent product guides—not a game studio, anti-cheat vendor, or license reseller.',
+          ],
+        },
       ],
     },
     privacy: {
@@ -486,14 +493,61 @@ export const en: Translations = {
         {
           heading: 'Data collection',
           paragraphs: [
-            'Anonymous analytics may record page views; support email collects only what you send in a message.',
-            'Checkout partners receive order data when you complete payment on their site.',
+            'Anonymous analytics may record page views, referrers, and device class so we know which guides load on phones versus desktops.',
+            'Support email collects only what you send: address, subject, body, and attachments you choose to include.',
+            'Checkout partners receive order data when you complete payment on their site; we do not store full card numbers on arc-cheats.net.',
           ],
         },
         {
-          heading: 'Cookies',
+          heading: 'Cookies and affiliate bridges',
           paragraphs: [
             'Cookie and analytics behavior is described in the on-page notice linked from the footer.',
+            'Clicking checkout bridges may set third-party cookies on the vendor or affiliate domain; those partners publish their own retention schedules.',
+            'We do not sell mailing lists built from support tickets or comment forms.',
+          ],
+        },
+        {
+          heading: 'Proof assets and screenshots',
+          paragraphs: [
+            'Showcase images under /images/showcase/ are static files with descriptive alt text; we do not embed tracking pixels inside those files.',
+            'If you email a screenshot for a correction, we may store it temporarily to verify a module label before deleting the attachment.',
+          ],
+        },
+        {
+          heading: 'Plan previews versus checkout',
+          paragraphs: [
+            'Homepage copy may cite $35 monthly or $150 lifetime figures as budgeting previews only.',
+            'Payment instruments, billing ZIP, and tax lines are collected on the vendor cart, not on this domain.',
+          ],
+        },
+        {
+          heading: 'Your choices',
+          paragraphs: [
+            'Use a direct vendor URL instead of affiliate links if you prefer not to attribute the sale.',
+            'Browser extensions and DNS filters can block analytics scripts; core guide pages remain readable without them.',
+            'Email support@arc-cheats.net to request deletion of a message you sent by mistake, subject to backup retention limits.',
+          ],
+        },
+        {
+          heading: 'Children and regional notices',
+          paragraphs: [
+            'This site targets adult PC shoppers researching Arc Raiders modules.',
+            'Visitors outside the United States should read vendor privacy policies in their jurisdiction before checkout.',
+          ],
+        },
+        {
+          heading: 'FAQ-style retention',
+          paragraphs: [
+            'Server logs for analytics are aggregated; we do not tie anonymous page views to checkout receipts on this domain.',
+            'Email threads may be kept until the correction is shipped or until you ask for deletion, whichever comes first.',
+            'Affiliate partners may retain order IDs longer than we keep support mail—see their privacy addendum after you pay.',
+          ],
+        },
+        {
+          heading: 'Checkout proof we do not store',
+          paragraphs: [
+            'We do not cache card numbers, CVV codes, or vendor passwords on arc-cheats.net servers.',
+            'Screenshot attachments you email for corrections are deleted after the guide is updated unless you ask us to retain them for an open ticket.',
           ],
         },
       ],
@@ -507,12 +561,77 @@ export const en: Translations = {
           paragraphs: [
             'Software is licensed by the vendor you pay; this site does not deliver binaries itself.',
             'You are responsible for complying with the game client terms in your region.',
+            'Guides describe modules we screenshot on test rigs; vendor builds may differ after patches.',
           ],
         },
         {
-          heading: 'Refunds',
+          heading: 'Offers shown in copy',
+          paragraphs: [
+            'Plan previews such as $35 monthly or $150 lifetime are not binding quotes until the vendor cart displays the total.',
+            'Optional DMA or HWID utilities bill separately when listed in your cart; refunds follow that SKU’s vendor policy.',
+          ],
+        },
+        {
+          heading: 'Refunds and chargebacks',
           paragraphs: [
             'Refund requests follow the vendor policy tied to your checkout receipt.',
+            'Opening a chargeback while a vendor ticket is active may pause license access until the dispute closes.',
+          ],
+        },
+        {
+          heading: 'Acceptable use of guides',
+          paragraphs: [
+            'Do not scrape automated traffic through checkout bridges in ways that mimic fraud checks.',
+            'Do not imply arc-cheats.net endorses ban evasion; read the ban primer for enforcement facts.',
+          ],
+        },
+        {
+          heading: 'Warranty disclaimer',
+          paragraphs: [
+            'We provide guides “as is” without uptime guarantees for affiliate links or screenshot freshness.',
+            'Detection risk remains with the vendor and your gameplay choices; we do not guarantee undetected play.',
+          ],
+        },
+        {
+          heading: 'Contact',
+          paragraphs: [
+            'Questions about these terms go to the contact page; order disputes stay with the vendor named on your receipt.',
+          ],
+        },
+        {
+          heading: 'Plan proof on guides',
+          paragraphs: [
+            'Money pages show monthly and lifetime previews tied to showcase stills; they are not invoices.',
+            'Optional DMA or HWID SKUs carry separate refund windows—read the cart line before you pay.',
+          ],
+        },
+        {
+          heading: 'FAQ-style limitations',
+          paragraphs: [
+            'We do not guarantee feature parity after game patches; vendor changelogs override guide copy.',
+            'Screenshot proof documents a test session—it is not a warranty of future detection status.',
+          ],
+        },
+        {
+          heading: 'Offers referenced in guides',
+          paragraphs: [
+            'Preview prices such as $35 monthly or $150 lifetime appear in hero and FAQ copy only.',
+            'Coupons, bundles, and regional tax are applied on the vendor cart—the figures here are not invoices.',
+            'Optional SKUs (DMA, HWID utilities) are governed by the refund paragraph on that line item.',
+          ],
+        },
+        {
+          heading: 'Proof limits',
+          paragraphs: [
+            'Guide screenshots are editorial samples; they are not a service-level agreement for features or uptime.',
+            'We may remove outdated claims within guides when vendor changelogs contradict them, without notice on redirect-only URLs.',
+          ],
+        },
+        {
+          heading: 'FAQ on subscriptions',
+          paragraphs: [
+            'Monthly previews bill every 31 days unless your receipt states a different renewal cadence.',
+            'Lifetime previews still require vendor-defined patch support windows—read the SKU footnotes before you treat “lifetime” as perpetual updates.',
           ],
         },
       ],

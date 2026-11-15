@@ -41,3 +41,26 @@ Outdoor stills highlight compass HUD spacing during extractions. Indoor breach s
 ![Indoor breach with weapon light](/images/showcase/arc-gameplay-indoor.webp)
 
 Confirm the [Windows PC requirements checklist](/guides/system-requirements/) on Windows 10 or 11, skim the [checkout routing FAQ](/faq/) for plan questions, and contact the [order support desk](/support/) if a module name in your vendor brief does not appear in these previews yet.
+
+## Current plan previews (verify on vendor cart)
+
+| Plan | Preview price | What shoppers should confirm at checkout |
+|------|-----------------|------------------------------------------|
+| Monthly | **$35** | Subscription renewal date, cancel link, and whether ESP + aim ship in one key |
+| Lifetime | **$150** | One-time total, HWID reset policy, and patch support window quoted by vendor |
+
+These figures mirror the homepage hero; tax, coupons, and currency conversion appear only after you follow the checkout bridge.
+
+## Proof checklist before you pay
+
+1. Compare skeleton ESP, loot radar, and menu stills on this page with the [player marker walkthrough](/arc-raiders-esp/).
+2. Open the [indoor aim tuning write-up](/arc-raiders-aimbot/) if aim modules are in your cart.
+3. Read the [hardware versus account ban fact sheet](/arc-raiders-account-vs-hardware-ban/) when risk tolerance matters more than feature count.
+
+## FAQ-style answers on this page
+
+**Do screenshots guarantee future patches?** No—stills document our test session; vendors ship builds on their own cadence.
+
+**Where do licenses arrive?** In the vendor inbox named on your receipt, not via arc-cheats.net email.
+
+**Are DMA or HWID add-ons included in $35 / $150?** Only when your cart lists those SKUs; otherwise treat them as separate line items with their own refund rules.

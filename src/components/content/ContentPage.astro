@@ -97,8 +97,12 @@ const pageFaqTopics = pageFaqs ? faqFilterTopicsForItems(pageFaqs) : [];
         </div>
         <div class="mx-auto grid max-w-6xl items-start gap-10 px-5 lg:grid-cols-[1fr_minmax(18rem,22rem)]">
           <div class="min-w-0">
-            <div
-              class:list={['content-markdown', data.heroImage && data.route === '/' && 'product-hero-after-h1']}
+            <article
+              class:list={[
+                'content-markdown',
+                data.route === '/' && 'home-page-shell',
+                data.heroImage && data.route === '/' && 'product-hero-after-h1',
+              ]}
               data-content-body
             >
               {data.heroImage && data.route === '/' ? (
@@ -119,7 +123,7 @@ const pageFaqTopics = pageFaqs ? faqFilterTopicsForItems(pageFaqs) : [];
                 />
               ) : null}
               <ContentFigures figures={data.figures} />
-            </div>
+            </article>
             <div class="not-prose mt-8 lg:hidden">
               <CheckoutProductPicker defaultProduct={sidebarDefaultProduct} />
             </div>

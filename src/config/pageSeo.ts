@@ -20,12 +20,12 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
       'See Arc Raiders ESP: player overlays, loot filters, containers, ARC markers and extraction points. Compare features before checkout.',
   },
   '/arc-raiders-aimbot/': {
-    title: 'Arc Raiders Aimbot | FOV, Features & Plan Details',
+    title: 'Arc Raiders Aimbot Guide | FOV, Features & Plans',
     description:
       'Review Arc Raiders aimbot controls, including FOV, smoothing, speed, stickiness and visibility checks. See the feature list and current plan details.',
   },
   '/arc-raiders-account-vs-hardware-ban/': {
-    title: 'Arc Raiders Account vs Hardware Ban Guide Explained',
+    title: 'Arc Raiders Ban Guide | Account vs Hardware Explained',
     description:
       'Learn how Arc Raiders account and hardware bans differ, review official enforcement details, and check the facts before contacting support.',
   },
@@ -55,12 +55,12 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
       'Windows PC requirements checklist for ARC Raiders modules, with gameplay stills showing HUD load. Confirm CPU, RAM, and GPU before purchase.',
   },
   '/guides/cloud-dma-setup/': {
-    title: 'Cloud DMA Setup Guide for ARC Raiders on Windows PC',
+    title: 'Arc Raiders Cloud DMA Setup Guide | Windows PC Steps',
     description:
       'Cloud DMA preparation guide with indoor breach screenshots. Hyper-V and firmware steps belong here after vendor documentation is wired in.',
   },
   '/privacy/': {
-    title: 'Privacy Policy | Analytics, Email & Checkout Data',
+    title: 'Privacy Policy | Analytics, Email & Checkout Records',
     description:
       'Privacy policy for arc-cheats.net covering analytics, support email, and checkout partner data when you contact us or complete an order.',
   },
@@ -78,6 +78,16 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
     title: 'Contact ARC Cheats Support | Orders & License Help',
     description:
       'Contact arc-cheats.net for order questions, license delivery, and Windows setup help before you open vendor checkout.',
+  },
+  '/blog/': {
+    title: 'ARC Cheats Blog | Arc Raiders Guides & Patch Notes',
+    description:
+      'Editorial notes on Arc Raiders modules, screenshot updates, and checkout changes published on arc-cheats.net for US PC shoppers.',
+  },
+  '/forum/': {
+    title: 'ARC Cheats Forum | Arc Raiders Community Q&A Pages',
+    description:
+      'Community-style Q&A indexed from site guides: plans, ESP proof stills, and where vendor support handles licenses.',
   },
 };
 

@@ -1,6 +1,6 @@
 ---
 route: "/guides/cloud-dma-setup/"
-seoTitle: "Cloud DMA Setup Guide for ARC Raiders on Windows PC"
+seoTitle: "Arc Raiders Cloud DMA Setup Guide | Windows PC Steps"
 metaDescription: "Cloud DMA preparation guide with indoor breach screenshots. Hyper-V and firmware steps belong here after vendor documentation is wired in."
 schemaTypes: ["WebPage", "Article"]
 layout: "article"
@@ -42,7 +42,7 @@ Use breach maps with tight corridors to confirm radar still aligns when muzzle f
 
 Run a five-minute private session without recording software. If frames stay within five percent of your baseline gameplay average, re-enable loot filters one category at a time.
 
-When radar drifts after a driver update, revert to the last known-good vendor package before you tweak FOV or smoothing on the [indoor aim tuning write-up](/arc-raiders-aimbot/) page.
+When radar drifts after a driver update, revert to the last known-good vendor package before you tweak FOV or smoothing on the [corridor aim smoothing guide](/arc-raiders-aimbot/) page.
 
 ## Hyper-V and firmware notes
 
@@ -56,7 +56,7 @@ If your motherboard hides VT-d or IOMMU groups behind OEM names, search the vend
 
 DMA add-ons bill separately from the $35 / $150 core bundle shown on the homepage hero. Checkout may show a subscription for cloud relay time plus hardware deposit language.
 
-Affiliate links on this domain do not change those totals; they only attribute the sale. Read the [commission policy page](/affiliate-disclosure/) if you want to know how we earn from your cart.
+Affiliate links on this domain do not change those totals; they only attribute the sale. Read the [affiliate earnings disclosure](/affiliate-disclosure/) if you want to know how we earn from your cart.
 
 ## Support routing
 
