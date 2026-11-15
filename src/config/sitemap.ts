@@ -30,11 +30,21 @@ export function sitemapSerialize(item: SitemapItem): SitemapItem | undefined {
     return undefined;
   }
 
+  if (path.startsWith('/cheats/')) {
+    return undefined;
+  }
+
+  if (path.startsWith('/blog/') && path !== '/blog/') {
+    return undefined;
+  }
+
+  if (path.startsWith('/forum/') && path !== '/forum/') {
+    return undefined;
+  }
+
   if (
-    path.startsWith('/blog') ||
-    path.startsWith('/forum') ||
-    path.startsWith('/products/') ||
-    path.startsWith('/cheats/')
+    path.startsWith('/products/') &&
+    path !== '/products/dota-2-cheats/hwid-spoofer/'
   ) {
     return undefined;
   }

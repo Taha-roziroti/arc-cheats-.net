@@ -20,12 +20,12 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
       'See Arc Raiders ESP: player overlays, loot filters, containers, ARC markers and extraction points. Compare features before checkout.',
   },
   '/arc-raiders-aimbot/': {
-    title: 'Arc Raiders Aimbot Guide | FOV, Features & Plans',
+    title: 'Arc Raiders Aimbot Guide | FOV, Features & Plan Facts',
     description:
       'Review Arc Raiders aimbot controls, including FOV, smoothing, speed, stickiness and visibility checks. See the feature list and current plan details.',
   },
   '/arc-raiders-account-vs-hardware-ban/': {
-    title: 'Arc Raiders Ban Guide | Account vs Hardware Explained',
+    title: 'Arc Raiders Hardware Ban Guide | Account vs Device Ban',
     description:
       'Learn how Arc Raiders account and hardware bans differ, review official enforcement details, and check the facts before contacting support.',
   },

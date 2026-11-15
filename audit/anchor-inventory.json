@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T10:30:05.217Z",
-  "count": 471,
+  "generatedAt": "2026-11-15T10:38:12.507Z",
+  "count": 472,
   "anchors": [
     {
       "page": "/about/",
@@ -573,6 +573,22 @@
     {
       "page": "/arc-raiders-account-vs-hardware-ban/",
       "region": "breadcrumb",
+      "text": "marker stills from the ESP gallery",
+      "normalized": "marker stills from the esp gallery",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "aim module smoothing write-up",
+      "normalized": "aim module smoothing write-up",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
       "text": "Arc Raiders licensing FAQ",
       "normalized": "arc raiders licensing faq",
       "href": "/faq/",
@@ -581,8 +597,8 @@
     {
       "page": "/arc-raiders-account-vs-hardware-ban/",
       "region": "breadcrumb",
-      "text": "ESP feature overview",
-      "normalized": "esp feature overview",
+      "text": "ESP screenshots",
+      "normalized": "esp screenshots",
       "href": "/arc-raiders-esp/",
       "rel": ""
     },
@@ -613,17 +629,9 @@
     {
       "page": "/arc-raiders-account-vs-hardware-ban/",
       "region": "breadcrumb",
-      "text": "ESP screenshots",
-      "normalized": "esp screenshots",
-      "href": "/arc-raiders-esp/",
-      "rel": ""
-    },
-    {
-      "page": "/arc-raiders-account-vs-hardware-ban/",
-      "region": "breadcrumb",
       "text": "Share on X",
       "normalized": "share on x",
-      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F&amp;text=Arc%20Raiders%20Ban%20Guide%20%7C%20Account%20vs%20Hardware%20Explained",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F&amp;text=Arc%20Raiders%20Hardware%20Ban%20Guide%20%7C%20Account%20vs%20Device%20Ban",
       "rel": "noopener noreferrer"
     },
     {
@@ -639,7 +647,7 @@
       "region": "breadcrumb",
       "text": "Share on Telegram",
       "normalized": "share on telegram",
-      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F&amp;text=Arc%20Raiders%20Ban%20Guide%20%7C%20Account%20vs%20Hardware%20Explained",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F&amp;text=Arc%20Raiders%20Hardware%20Ban%20Guide%20%7C%20Account%20vs%20Device%20Ban",
       "rel": "noopener noreferrer"
     },
     {
@@ -647,7 +655,7 @@
       "region": "breadcrumb",
       "text": "Share on Reddit",
       "normalized": "share on reddit",
-      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F&amp;title=Arc%20Raiders%20Ban%20Guide%20%7C%20Account%20vs%20Hardware%20Explained",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F&amp;title=Arc%20Raiders%20Hardware%20Ban%20Guide%20%7C%20Account%20vs%20Device%20Ban",
       "rel": "noopener noreferrer"
     },
     {
@@ -655,7 +663,7 @@
       "region": "breadcrumb",
       "text": "Share on WhatsApp",
       "normalized": "share on whatsapp",
-      "href": "https://wa.me/?text=Arc%20Raiders%20Ban%20Guide%20%7C%20Account%20vs%20Hardware%20Explained%20https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F",
+      "href": "https://wa.me/?text=Arc%20Raiders%20Hardware%20Ban%20Guide%20%7C%20Account%20vs%20Device%20Ban%20https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F",
       "rel": "noopener noreferrer"
     },
     {
@@ -935,7 +943,7 @@
       "region": "breadcrumb",
       "text": "Share on X",
       "normalized": "share on x",
-      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F&amp;text=Arc%20Raiders%20Aimbot%20Guide%20%7C%20FOV%2C%20Features%20%26%20Plans",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F&amp;text=Arc%20Raiders%20Aimbot%20Guide%20%7C%20FOV%2C%20Features%20%26%20Plan%20Facts",
       "rel": "noopener noreferrer"
     },
     {
@@ -951,7 +959,7 @@
       "region": "breadcrumb",
       "text": "Share on Telegram",
       "normalized": "share on telegram",
-      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F&amp;text=Arc%20Raiders%20Aimbot%20Guide%20%7C%20FOV%2C%20Features%20%26%20Plans",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F&amp;text=Arc%20Raiders%20Aimbot%20Guide%20%7C%20FOV%2C%20Features%20%26%20Plan%20Facts",
       "rel": "noopener noreferrer"
     },
     {
@@ -959,7 +967,7 @@
       "region": "breadcrumb",
       "text": "Share on Reddit",
       "normalized": "share on reddit",
-      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F&amp;title=Arc%20Raiders%20Aimbot%20Guide%20%7C%20FOV%2C%20Features%20%26%20Plans",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F&amp;title=Arc%20Raiders%20Aimbot%20Guide%20%7C%20FOV%2C%20Features%20%26%20Plan%20Facts",
       "rel": "noopener noreferrer"
     },
     {
@@ -967,7 +975,7 @@
       "region": "breadcrumb",
       "text": "Share on WhatsApp",
       "normalized": "share on whatsapp",
-      "href": "https://wa.me/?text=Arc%20Raiders%20Aimbot%20Guide%20%7C%20FOV%2C%20Features%20%26%20Plans%20https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F",
+      "href": "https://wa.me/?text=Arc%20Raiders%20Aimbot%20Guide%20%7C%20FOV%2C%20Features%20%26%20Plan%20Facts%20https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F",
       "rel": "noopener noreferrer"
     },
     {

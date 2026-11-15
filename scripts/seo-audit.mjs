@@ -225,8 +225,12 @@ function auditSitemap() {
     if (!loc.startsWith(SITE_URL)) {
       fail('technical', `sitemap: non-canonical host in ${loc}`);
     }
-    if (loc.includes('/blog/') || loc.includes('/forum/')) {
-      fail('technical', `sitemap: non-money URL should not be indexed: ${loc}`);
+    const pathnameForPolicy = new URL(loc).pathname;
+    if (
+      (pathnameForPolicy.startsWith('/blog/') && pathnameForPolicy !== '/blog/') ||
+      (pathnameForPolicy.startsWith('/forum/') && pathnameForPolicy !== '/forum/')
+    ) {
+      fail('technical', `sitemap: blog/forum child URL should not be indexed: ${loc}`);
     }
     try {
       const pathname = new URL(loc).pathname;

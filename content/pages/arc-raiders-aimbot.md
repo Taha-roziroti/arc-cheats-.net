@@ -1,5 +1,5 @@
 ---
-title: "Arc Raiders Aimbot Guide | FOV, Features & Plans"
+title: "Arc Raiders Aimbot Guide | FOV, Features & Plan Facts"
 description: "Review Arc Raiders aimbot controls, including FOV, smoothing, speed, stickiness and visibility checks. See the feature list and current plan details."
 slug: "/arc-raiders-aimbot/"
 ---

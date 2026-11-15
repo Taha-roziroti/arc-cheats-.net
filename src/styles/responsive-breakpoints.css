@@ -15,8 +15,13 @@
   .support-page-shell,
   .contact-page-shell,
   .faq-page-shell,
-  .home-page-shell {
+  .home-page-shell,
+  .money-page-shell--guide {
     padding-inline: 1rem;
+  }
+  .money-page-grid {
+    padding-inline: 1rem;
+    gap: 1.5rem;
   }
   .blog-page-shell,
   .forum-page {
@@ -37,6 +42,12 @@
   }
   .forum-layout {
     grid-template-columns: 1fr;
+  }
+  .blog-page-shell h1 {
+    font-size: 1.75rem;
+  }
+  .money-page-shell--guide :where(h1) {
+    font-size: 1.75rem;
   }
   .support-section__inner {
     padding-inline: 1rem;
@@ -64,8 +75,13 @@
   .support-page-shell .mx-auto,
   .contact-page-shell .mx-auto,
   .faq-page-shell .mx-auto,
-  .blog-page-shell .mx-auto {
+  .blog-page-shell .mx-auto,
+  .money-page-grid {
     max-width: 40rem;
+    margin-inline: auto;
+  }
+  article.money-page-shell--guide {
+    padding-inline: 1.25rem;
   }
   .home-page-shell {
     padding-inline: 1.25rem;
