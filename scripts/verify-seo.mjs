@@ -121,8 +121,7 @@ function checkPage(route) {
   }
 
   const noProductRoutes = new Set([
-    '/dota-2-cheats-review/',
-    '/dota-2-scripts/',
+    '/arc-raiders-account-vs-hardware-ban/',
   ]);
   const requiresProduct =
     route !== '/faq/' &&

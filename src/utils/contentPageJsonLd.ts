@@ -1,4 +1,4 @@
-import { checkoutPath } from '../config/checkout';
+import { checkoutPath, PRIMARY_CHECKOUT_PATH } from '../config/checkout';
 import {
   cloudDmaOffer,
   CLOUD_DMA_CHECKOUT,
@@ -50,28 +50,22 @@ export function breadcrumbsForRoute(route: string): BreadcrumbItem[] {
       { name: 'System requirements', path: '/guides/system-requirements/' },
     ];
   }
-  if (route === '/dota-2-maphack/') {
+  if (route === '/arc-raiders-esp/') {
     return [
       { name: 'Home', path: '/' },
-      { name: 'Dota 2 maphack', path: '/dota-2-maphack/' },
+      { name: 'Arc Raiders ESP', path: '/arc-raiders-esp/' },
     ];
   }
-  if (route === '/dota-2-hero-esp/') {
+  if (route === '/arc-raiders-aimbot/') {
     return [
       { name: 'Home', path: '/' },
-      { name: 'Dota 2 hero ESP', path: '/dota-2-hero-esp/' },
+      { name: 'Arc Raiders Aimbot', path: '/arc-raiders-aimbot/' },
     ];
   }
-  if (route === '/dota-2-cheats-review/') {
+  if (route === '/arc-raiders-account-vs-hardware-ban/') {
     return [
       { name: 'Home', path: '/' },
-      { name: 'Review', path: '/dota-2-cheats-review/' },
-    ];
-  }
-  if (route === '/dota-2-scripts/') {
-    return [
-      { name: 'Home', path: '/' },
-      { name: 'Dota 2 scripts', path: '/dota-2-scripts/' },
+      { name: 'Account vs hardware ban', path: '/arc-raiders-account-vs-hardware-ban/' },
     ];
   }
   return [{ name: 'Home', path: '/' }];
@@ -175,8 +169,8 @@ export function defaultEndCtaHref(
   if (checkout === 'cloud-dma') return checkoutPath('cloudDma');
   if (checkout === 'hwid-spoofer') return checkoutPath('hwidSpoofer');
   if (checkout === 'main-product') return checkoutPath('mainProduct');
-  if (route === '/pricing/') return checkoutPath('mainProduct');
-  if (route === '/cloud-dma/') return checkoutPath('cloudDma');
-  if (route === '/hwid-spoofer/') return checkoutPath('hwidSpoofer');
-  return checkoutPath('mainProduct');
+  if (route === '/pricing/') return PRIMARY_CHECKOUT_PATH;
+  if (route.includes('cloud-dma')) return checkoutPath('cloudDma');
+  if (route.includes('hwid-spoofer')) return checkoutPath('hwidSpoofer');
+  return PRIMARY_CHECKOUT_PATH;
 }

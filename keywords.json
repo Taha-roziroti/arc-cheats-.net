@@ -1,0 +1,81 @@
+{
+  "website": "arc-cheats.net",
+  "language": "en-US",
+  "market": "United States",
+  "seo_strategy": "Commercial and transactional search intent",
+  "pages": [
+    {
+      "path": "/",
+      "page_type": "Homepage / Main Product Landing Page",
+      "primary_keyword": "Arc Raiders cheats",
+      "secondary_keywords": [
+        "buy Arc Raiders cheats",
+        "Arc Raiders cheat menu",
+        "Arc Raiders cheat price",
+        "Arc Raiders private cheats"
+      ],
+      "title_tag": "Arc Raiders Cheats | ESP, Aimbot & Feature Details",
+      "meta_description": "Compare Arc Raiders ESP, aimbot options, system requirements, and current plans. Review the full feature list before choosing an access option.",
+      "h1": "Arc Raiders Cheats",
+      "intent": "commercial"
+    },
+    {
+      "path": "/arc-raiders-esp/",
+      "page_type": "Feature Landing Page",
+      "primary_keyword": "Arc Raiders ESP",
+      "secondary_keywords": [
+        "Arc Raiders player ESP",
+        "Arc Raiders loot ESP",
+        "Arc Raiders container ESP",
+        "Arc Raiders wallhack"
+      ],
+      "title_tag": "Arc Raiders ESP | Player, Loot & Container ESP",
+      "meta_description": "See Arc Raiders ESP: player overlays, loot filters, containers, ARC markers and extraction points. Compare features before checkout.",
+      "h1": "Arc Raiders ESP",
+      "intent": "commercial"
+    },
+    {
+      "path": "/arc-raiders-aimbot/",
+      "page_type": "Feature Landing Page",
+      "primary_keyword": "Arc Raiders aimbot",
+      "secondary_keywords": [
+        "Arc Raiders aimbot settings",
+        "Arc Raiders aimbot FOV",
+        "Arc Raiders aimbot smoothing"
+      ],
+      "title_tag": "Arc Raiders Aimbot | FOV & Targeting Options",
+      "meta_description": "Review Arc Raiders aimbot controls, including FOV, smoothing, speed, stickiness and visibility checks. See the feature list and current plan details.",
+      "h1": "Arc Raiders Aimbot",
+      "intent": "commercial"
+    },
+    {
+      "path": "/arc-raiders-account-vs-hardware-ban/",
+      "page_type": "Informational Supporting Article",
+      "primary_keyword": "Arc Raiders account ban vs hardware ban",
+      "secondary_keywords": [
+        "Arc Raiders HWID ban",
+        "Arc Raiders hardware ban",
+        "Arc Raiders hardware ban error code",
+        "Arc Raiders anti-cheat ban policy"
+      ],
+      "title_tag": "Arc Raiders Account vs Hardware Ban Guide",
+      "meta_description": "Learn how Arc Raiders account and hardware bans differ, review official enforcement details, and check the facts before contacting support.",
+      "h1": "Arc Raiders Account Ban vs. Hardware Ban",
+      "intent": "informational"
+    }
+  ],
+  "additional_pages": [
+    { "path": "/affiliate-disclosure/", "type": "Trust and legal information" },
+    { "path": "/contact/", "type": "Contact and support" }
+  ],
+  "excluded_pages_pending_verification": [
+    {
+      "path": "/arc-raiders-hwid-spoofer/",
+      "reason": "Require explicit confirmation that the supplied HWID spoofer supports ARC Raiders."
+    },
+    {
+      "path": "/cloud-dma/",
+      "reason": "Require clarification of Hyper-V compatibility with Embark's virtual-machine restriction."
+    }
+  ]
+}

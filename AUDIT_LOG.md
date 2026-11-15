@@ -56,10 +56,17 @@ Workflow: `npm run audit` → fix → rebuild → log. Script: `scripts/seo-audi
 - **Repo state:** `main` at `bb4b3fe` on `origin` (Dota launch + audit prompt doc); working tree clean before pass 6.
 - **Issues found:** none scriptable; review table unchanged; blocked items unchanged.
 
-## Final verification (pass 5 & 6)
+## Pass 7 (2026-11-15 — `SEO-SUPER-BOOSTER.md` / arc-cheats.net)
 
-1. `npm run audit` with build — **pass** (pass 5, pass 6)
-2. `SKIP_BUILD=1 npm run audit` — **pass** (no code changes)
-3. `SKIP_BUILD=1 npm run audit` — **pass** (no code changes)
+- **Goal:** `SEO-SUPER-BOOSTER.md` — canonical `arc-cheats.net`, money-route verifiers green, full `npm run audit`.
+- **Fixed:** `verify-anchor-text` duplicate **editorial feature review** — guides no longer embed site FAQ block (`getContentPageFaqs` skips `/guides/*`); cspell dictionary `toggleable`, `hitboxes`, `wireframes`, `Raiders`, `arc-cheats`; `loadContentPage` uses `getCollection` only (removes build-time “Entry pages → … not found” noise).
+- **Evidence:** `npm run build` exit 0 (verify-redirects through verify-anchor-text); `npm run audit` exit 0; `SKIP_BUILD=1 npm run audit` ×2 exit 0 after cspell fix.
+- **Files touched:** `src/data/faq.ts`, `cspell.config.yaml`, `src/utils/loadContentPage.ts`, `AUDIT_LOG.md`.
+
+## Final verification (pass 5–7)
+
+1. `npm run audit` with build — **pass** (pass 5, pass 6, pass 7)
+2. `SKIP_BUILD=1 npm run audit` — **pass** (pass 7, no code changes between runs 2–3)
+3. `SKIP_BUILD=1 npm run audit` — **pass** (pass 7)
 
 **Definition of done (A):** scriptable audit green ×3; review table all pass; blocked items documented. Judgment checks (Playwright/Lighthouse) remain blocked per §7/§10.

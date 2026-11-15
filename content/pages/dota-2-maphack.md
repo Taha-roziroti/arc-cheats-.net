@@ -1,72 +1,45 @@
 ---
-title: "Dota 2 Maphack: Map Vision, Ward ESP & Fog Control"
-description: "See what the Dota 2 maphack listing says about fog of war, ward placement ESP and map information. Check the feature details."
+title: "ARC Raiders Loot ESP: Containers, Items & Radar"
+description: "Loot ESP screenshots for ARC Raiders: container dots, item clusters, and rooftop radar examples with short setup notes for Windows builds."
 slug: "/dota-2-maphack/"
 ---
 
-# Dota 2 Maphack: What the Product Lists
+# Loot ESP and world radar
 
-The minimap is already one of the most important parts of Dota 2. You're constantly checking it, looking for missing heroes, watching lanes and trying to work out what the other team is doing.
+This guide focuses on **loot ESP**, **container callouts**, and **area radar** for ARC Raiders. Screenshots carry most of the explanation: each still shows how colored markers, distance text, and player tags share the same HUD without hiding the reticle.
 
-A **Dota 2 maphack** takes that idea in a very different direction. The Zadeyo product listing specifically advertises full map hack functionality that removes fog of war, along with ward placement ESP and other map-related information.
+![Loot and container markers through a window line](/images/showcase/arc-esp-loot-overlay.webp)
 
-Let's look at what's actually listed, without inventing features that aren't there.
+## How loot markers behave
 
-## What this Dota 2 maphack page actually lists
+Loot clusters in the gallery use distinct colors for small items, containers, and drones. Distance text stays near the icon so readers can compare close-quarters loot against rooftop tags in the same article. When you publish vendor specs, list which categories are toggleable and whether icons scale with zoom.
 
-The main map-related feature is full map hack functionality with fog-of-war removal.
+Indoor examples prove markers remain visible through glass and door frames—common questions on support tickets before launch. Pair each feature name with a crop from this page so anchor text can stay specific instead of generic.
 
-That's the headline feature. The same product listing also includes ward placement ESP, which is a separate map-related function.
+## Rooftop and long sight lines
 
-There are other useful information features in the package as well, including:
+Elevated positions stress-test radar density. The rooftop still shows multiple contacts on separate structures, which helps set expectations for performance and readability during long extractions.
 
-- Creep spawn timers.
-- Rune spawn indicators.
-- Roshan timer.
-- Enemy inventory ESP.
+![Rooftop vantage with distant markers](/images/showcase/arc-gameplay-rooftop.webp)
 
-These features are listed independently, so don't mistake them for different names for the same function.
+Link outward to the [player ESP guide](/dota-2-hero-esp/) when bone overlays overlap map searches, and return to the [homepage plans](/#products) for monthly or lifetime tiers.
 
-The product page has gameplay screenshots and a video showcase. Those are worth examining because they give you a better idea of the actual interface than a short feature label ever could.
+## Before you buy
 
-## Dota 2 map information and fog of war
+Verify Windows build, GPU headroom, and anti-virus exclusions on the [requirements checklist](/guides/system-requirements/). Cloud DMA shoppers should read the [Cloud DMA setup walkthrough](/guides/cloud-dma-setup/) only when that SKU is in the cart.
 
-Fog of war is a familiar part of Dota 2. It limits what you can see across the map, which is why map awareness matters so much during a match.
+[Continue to checkout](AFFILIATE_LINK_PLACEHOLDER)
 
-The listed Dota 2 map hack is designed around removing that restriction.
+Questions about plans or add-ons belong in the [loot ESP FAQ hub](/faq/) until live pricing copy is published on this route.
 
-The product description doesn't provide a detailed technical breakdown of how map information is presented in every situation. We won't make up specifics about display settings, individual map elements or supported game builds.
+## Color coding and filters
 
-Those details are [NEEDS INFO].
+Most loot ESP builds separate consumables, weapons, and containers with color or shape. When you document the product, explain whether filters persist between matches and whether teammates share the same palette. Screenshots on this page show mixed clusters so readers can see overlap before they enable every category at once.
 
-## Ward placement ESP and other map-related features
+## Performance during extractions
 
-Ward placement ESP is another feature worth examining separately.
+Radar density spikes when squads contest the same wing of a map. Note how distance text scales and whether icons hide beyond a configured meter cap. Shoppers on mid-range laptops care about this more than raw feature counts—tie your requirements section to real hardware in the [ESP hardware requirements](/guides/system-requirements/) guide.
 
-Wards are part of the information game in Dota 2, and the product listing specifically includes a ward-related ESP function.
+## Legal and publisher context
 
-The same package also includes creep, rune and Roshan timers. These are useful distinctions when you're comparing the available features because map visibility and event timing aren't the same thing.
-
-For the player-information side, see the separate [Dota 2 hero ESP feature breakdown](/dota-2-hero-esp/).
-
-## Requirements before purchasing
-
-The Dota 2 product listing specifies Windows 10 and Windows 11 support.
-
-It also requires HVCI, Core Isolation, TPM and Secure Boot to be enabled. Cloud DMA is listed as necessary for full functionality on supported builds.
-
-Don't skip these details and assume they'll sort themselves out after checkout.
-
-[Check the current Dota 2 maphack product and plans](AFFILIATE_LINK_PLACEHOLDER)
-
-For a look at the complete package, including pricing and its other listed modules, head back to the [main Dota 2 product page](/).
-
-## What to check in the product showcase
-
-Before purchasing, examine the actual map-related screenshots and video.
-
-Check how fog-of-war removal is demonstrated, what the ward placement interface looks like and whether the showcased build matches the version being offered.
-
-The current listing doesn't specify every supported build or provide detailed instructions for each map-related setting. Those are worth confirming with the seller rather than guessing.
-
-A proper look at the actual product is worth more than another page full of vague promises.
+This site is independent and not affiliated with any game publisher. ARC Raiders is named descriptively so shoppers know which client the screenshots represent. Replace risk disclaimers with counsel-approved language before you run paid traffic to this URL.

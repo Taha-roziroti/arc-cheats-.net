@@ -2,6 +2,7 @@
 import { t } from '../i18n';
 import { Separator } from '@/components/starwind/separator';
 import { SITE_LOGO_ALT } from '../utils/imageAlt';
+import { PLACEHOLDER_COPY } from '../data/placeholders';
 
 interface Props {
   logoAlt?: string;
@@ -31,7 +32,7 @@ const legalLinks = [
       <div class="space-y-4">
         <a href="/" class="inline-flex items-center gap-2.5 font-[family-name:var(--font-heading)] text-lg font-semibold" aria-label={t.ui.homeAria}>
           <img src="/logo.svg" alt={footerLogoAlt} width="32" height="32" class="rounded-md" />
-          <span aria-hidden="true">Dota<span class="text-muted-foreground">Cheat</span></span>
+          <span aria-hidden="true">{PLACEHOLDER_COPY.siteName}</span>
           <span class="sr-only"> site footer</span>
         </a>
         <p class="text-sm text-muted-foreground">{t.footer.tagline}</p>

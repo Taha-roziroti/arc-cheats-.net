@@ -105,7 +105,7 @@ function buildTierPages(): ProductPage[] {
     return {
       slug,
       kind: 'tier',
-      badge: cheat.badge,
+      badge: cheat.badge ?? 'Core',
       tier: cheat.tier,
       name: cheat.name,
       title: cheat.title,
@@ -136,13 +136,13 @@ function slugFromHref(href: string): string {
 
 function buildUtilityPages(): ProductPage[] {
   return t.products.items
-    .filter((p) => p.href !== productBase)
+    .filter((p) => p.href.startsWith(productBase))
     .map((product) => {
       const slug = slugFromHref(product.href);
       return {
         slug,
         kind: 'utility',
-        badge: product.badge,
+        badge: product.badge ?? product.category,
         category: product.category,
         name: product.title,
         title: product.title,
@@ -189,6 +189,6 @@ export const productHub = {
   path: productBase,
   title: t.products.title,
   subtitle: t.products.subtitle,
-  description: 'Product hub placeholder — replace with your catalog summary.',
+  description: 'Core license, Cloud DMA, and HWID utilities listed with checkout links.',
   buyUrl: PRIMARY_CHECKOUT_PATH,
 };

@@ -1,103 +1,55 @@
 ---
-title: "Dota 2 Cheats Review: Features, Pricing & Verdict"
-description: "Read our Dota 2 cheats review covering listed features, Windows requirements, plans and pricing. Check the details before purchasing."
+title: "ARC Raiders Cheats Review: UI, ESP & Verdict"
+description: "Independent ARC Raiders review with inventory UI, wide radar stills, and outdoor HUD examples before you open monthly or lifetime checkout."
 slug: "/dota-2-cheats-review/"
 ---
 
-# Dota 2 Cheats Review: Features & Pricing
+# ARC Raiders feature review
 
-Buying software from a feature list alone is a pretty easy way to end up with something you didn't fully understand.
+This review route balances **screenshots** with short verdict copy. Images prove how busy a full feature build looks; paragraphs explain what we can verify independently before affiliate checkout hands off to the vendor.
 
-That's why this **Dota 2 cheats review** focuses on the information actually available for the Zadeyo package. We'll look at the listed functions, subscription options and hardware requirements, along with the details that still need clarification.
+![Full inventory and loadout UI](/images/showcase/arc-menu-inventory.webp)
 
-One thing upfront: this is a review of the published product information, not a claim that we've independently benchmarked or tested every feature.
+## Menu and loadout clarity
 
-## What this Dota 2 cheats review can verify
+The inventory capture shows quick-use items, weapon slots, and safe-pocket placement in one panel. Use it when you discuss whether the product feels organized for new buyers. If vendor menus change, swap the still but keep alt text specific to the module list you publish.
 
-The current listing describes a package with several different functions.
+## Radar density and team fights
 
-The feature list includes:
+Wide radar shots show multiple player tags, loot clusters, and drone indicators in a single frame. That density is intentional—it sets honest expectations about HUD load during contested extractions.
 
-- Hero ESP with items and levels.
-- Full map hack with fog-of-war removal.
-- Ability cooldown tracker.
-- Creep spawn timers.
-- Rune spawn indicators.
-- Last-hit prediction helper.
-- Auto-dodge skillshots.
-- Ward placement ESP.
-- Roshan timer.
-- Enemy inventory ESP.
+![Wide player and loot radar](/images/showcase/arc-esp-player-radar.webp)
 
-That's a fairly varied feature set.
+## Open-world pacing
 
-Some functions focus on player information, others on map visibility and timing. The package also lists performance optimization and 24/7 support, although independent performance results and detailed support response times aren't provided.
+Outdoor gameplay stills help you comment on compass placement, third-person camera comfort, and daytime readability. Pair them with performance notes from the [PC requirements article](/guides/system-requirements/).
 
-## Dota 2 cheat software requirements
+![Outdoor gameplay with compass HUD](/images/showcase/arc-gameplay-outdoor.webp)
 
-This is one area I'd check before even thinking about payment.
+### Verdict summary
 
-The listing supports Windows 10 and Windows 11. It also specifies four system settings:
+We rate modules only against vendor-provided material and live checkout listings. Update this paragraph with your scored verdict, pricing table, and risk disclaimer when the affiliate brief is final.
 
-- HVCI must be enabled.
-- Core Isolation must be enabled.
-- TPM must be enabled.
-- Secure Boot must be enabled.
+Drill into [loot marker screenshots](/dota-2-maphack/) and [bone ESP samples](/dota-2-hero-esp/), then open the [Zadeyo checkout picker](/go/) to pick ARC Raiders, Cloud DMA, or HWID utilities.
 
-Cloud DMA is listed as required for full functionality on supported builds.
+[Continue to checkout](AFFILIATE_LINK_PLACEHOLDER)
 
-There's another detail worth paying attention to. The separate Cloud DMA page identifies GREENWARD, Static Server and AWS as additional purchases required for its setup.
+## Pricing and plans
 
-Those products are listed separately. The Dota 2 subscription price shouldn't automatically be treated as the total cost of the entire setup.
+Monthly and lifetime tiers should mirror the vendor checkout page. Until live numbers are wired in, treat pricing tables on the homepage as informational. Cloud DMA and HWID utilities bill on separate SKUs—call that out near every bundle claim.
 
-The complete relationship between those purchases and each supported Dota 2 configuration should be confirmed with the seller. [NEEDS INFO]
+## Support and delivery expectations
 
-## Subscription plans and pricing
+License email, loader delivery, and reset policies belong to the checkout partner. We route questions through [license support](/support/) with order details. Keep response-time copy honest until vendor SLAs are published.
 
-The supplied Dota 2 product page currently lists two options:
+## What we cannot verify from screenshots alone
 
-| Plan | Duration | Listed price |
-|---|---|---:|
-| Monthly | 31 days | $35 |
-| Lifetime | Unlimited access | $150 |
+Screenshots prove layout, not anti-cheat outcomes or ban rates. Avoid promising undetected status unless the vendor provides dated statements. Pair this review with the [checkout mechanics FAQ](/faq/) for routing questions and the [HUD tools gallery](/dota-2-scripts/) for timer-heavy modules.
 
-The 31-day option has a lower initial cost. Lifetime access costs more upfront and is advertised as unlimited access.
+## Publisher disclaimer
 
-The difference is pretty simple, but don't forget to account for any separately required products when comparing the overall price.
+ARC Raiders trademarks belong to their respective owners. ARC-Cheats publishes independent guides and affiliate checkout links. Replace this block with your registered business identity before launch advertising.
 
-[Check current pricing and product availability](AFFILIATE_LINK_PLACEHOLDER)
+## Editorial method
 
-## What about product performance?
-
-The listing describes the software as performance optimized.
-
-That's a vendor-provided product description, not an independent benchmark. There are no verified frame-rate comparisons, system-load measurements or detailed performance tests supplied here.
-
-So we're not going to pretend to have tested performance on different hardware configurations.
-
-If performance is a deciding factor for you, ask for a current demonstration and any available compatibility information before purchasing.
-
-## What we still need to know
-
-There are a few unanswered questions that would make this review much more useful:
-
-- Detailed installation instructions: [NEEDS INFO]
-- Exact supported Dota 2 game builds: [NEEDS INFO]
-- Supported Windows editions beyond the listed versions: [NEEDS INFO]
-- Total cost of the Cloud DMA setup and required additional products: [NEEDS INFO]
-- Refund and cancellation terms: [NEEDS INFO]
-- Independent performance test results: [NEEDS INFO]
-
-Those gaps matter. A product description can tell you what's advertised, but it can't answer every practical question about setup and long-term use.
-
-## So, is it worth considering?
-
-The advertised feature set is reasonably clear. You know which ESP functions, map tools and timers are listed, and the page gives you two subscription options.
-
-The Windows requirements are also published, which makes it easier to check your configuration before purchasing.
-
-The biggest things to confirm are the full setup cost, compatibility with your exact configuration and the details behind the product's performance claims.
-
-For the individual functions, check our [Dota 2 hero ESP breakdown](/dota-2-hero-esp/) and [maphack feature guide](/dota-2-maphack/).
-
-Read the product details carefully, check the actual showcase and make your decision with the full cost in mind. That's a much better way to spend your money than trusting a flashy feature list.
+We compare each screenshot to the current vendor checklist, then note gaps in prose. When the checklist changes, update titles in `pageSeo.ts` and this review together so canonical metadata stays synchronized.

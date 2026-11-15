@@ -59,6 +59,32 @@ function setupStagger() {
   });
 }
 
+/** H2/H3 and figures in markdown pages (attributes are not in the MD source). */
+function setupMarkdownMotion() {
+  const headingSel = '[data-content-body] h2, [data-content-body] h3';
+  gsap.utils.toArray<HTMLElement>(headingSel).forEach((el) => {
+    if (isInitiallyVisible(el)) return;
+    gsap.from(el, {
+      opacity: 0,
+      y: 30,
+      duration: 0.75,
+      ease: 'power2.out',
+      scrollTrigger: { trigger: el, start: 'top 88%', once: true },
+    });
+  });
+
+  gsap.utils.toArray<HTMLElement>('[data-content-body] img').forEach((el) => {
+    if (isInitiallyVisible(el)) return;
+    gsap.from(el, {
+      opacity: 0,
+      scale: 0.96,
+      duration: 0.8,
+      ease: 'power2.out',
+      scrollTrigger: { trigger: el, start: 'top 88%', once: true },
+    });
+  });
+}
+
 function setupParallax() {
   gsap.utils.toArray<HTMLElement>('[data-parallax]').forEach((el) => {
     const amount = parseFloat(el.dataset.parallax || '') || 8;
@@ -112,6 +138,7 @@ function startMotion() {
   ctx = gsap.context(() => {
     setupReveals();
     setupStagger();
+    setupMarkdownMotion();
     setupParallax();
   });
 

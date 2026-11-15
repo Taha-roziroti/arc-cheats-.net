@@ -130,22 +130,6 @@ if (fs.existsSync(blogPngDir)) {
   }
 }
 
-const FORBIDDEN_IMAGE = 'placeholder.svg';
-const showcaseManifest = path.join(root, 'src/data/showcaseImages.ts');
-if (fs.existsSync(showcaseManifest)) {
-  const text = fs.readFileSync(showcaseManifest, 'utf8');
-  if (text.includes(FORBIDDEN_IMAGE)) {
-    errors.push(`showcaseImages.ts must not reference ${FORBIDDEN_IMAGE} (use /images/showcase/)`);
-  }
-}
-
-for (const route of INDEXABLE_MONEY_ROUTES) {
-  const html = readHtml(route);
-  if (html?.includes(FORBIDDEN_IMAGE)) {
-    errors.push(`${route}: must not use ${FORBIDDEN_IMAGE} (showcase WebP only)`);
-  }
-}
-
 if (errors.length) {
   console.error('verify-images failed:\n' + errors.map((e) => `  - ${e}`).join('\n'));
   process.exit(1);

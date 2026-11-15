@@ -2,9 +2,9 @@ import { visit } from 'unist-util-visit';
 
 function affiliateHrefForContentSlug(slug) {
   const normalized = slug.endsWith('/') ? slug : `${slug}/`;
-  if (normalized.includes('cloud-dma-for-arena-breakout-infinite')) return '/go/cloud-dma/';
+  if (normalized.includes('cloud-dma')) return '/go/cloud-dma/';
   if (normalized.includes('hwid-spoofer')) return '/go/hwid-spoofer/';
-  return '/go/main-product/';
+  return '/go/';
 }
 
 const FILE_SLUG = [
@@ -13,6 +13,8 @@ const FILE_SLUG = [
   ['dota-2-hero-esp.md', '/dota-2-hero-esp/'],
   ['dota-2-cheats-review.md', '/dota-2-cheats-review/'],
   ['dota-2-scripts.md', '/dota-2-scripts/'],
+  ['cloud-dma-setup.md', '/guides/cloud-dma-setup/'],
+  ['system-requirements.md', '/guides/system-requirements/'],
 ];
 
 function slugFromFile(file) {

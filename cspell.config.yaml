@@ -45,6 +45,11 @@ words:
   - Orbwalker
   - bento
   - Unban
+  - toggleable
+  - hitboxes
+  - wireframes
+  - Raiders
+  - arc-cheats
 ignorePaths:
   - dist/**
   - node_modules/**

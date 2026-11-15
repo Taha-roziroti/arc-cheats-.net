@@ -25,6 +25,7 @@ const { class: className, side = "right", ...rest } = Astro.props;
   class={sheetContent({ side, class: className })}
   data-state="closed"
   side={side}
+  data-lenis-prevent
   {...rest}
   data-slot="sheet-content"
 >

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dotacheat.com/sitemap.xml
+Sitemap: https://arc-cheats.net/sitemap.xml

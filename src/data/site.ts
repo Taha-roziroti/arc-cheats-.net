@@ -16,9 +16,9 @@ export const TITLE_PREFIX = PLACEHOLDER_COPY.title;
 export const PRODUCT_ID = `${SITE_URL}/#product`;
 
 export const SITE_PURPOSE =
-  'Independent guides and checkout paths for Dota 2 cheat software on Windows PC, including map vision, hero ESP, and related modules listed on the vendor build.';
+  'Independent ARC Raiders guides, showcase screenshots, and named checkout bridges on arc-cheats.net.';
 
-export const SITE_ABOUT = ['Dota 2 cheats', 'Maphack', 'Hero ESP', 'Scripts', 'Windows PC'] as const;
+export const SITE_ABOUT = ['Product guides', 'Feature pages', 'Checkout paths', 'Support', 'Windows PC'] as const;
 
 export const LISTED_PRICES = {
   monthlyUsd: 35,
@@ -27,25 +27,24 @@ export const LISTED_PRICES = {
 } as const;
 
 export const SEO_ROUTE_INTENTS: Record<string, string> = {
-  '/': 'dota 2 cheats, buy dota 2 cheats, plans',
-  '/dota-2-maphack/': 'dota 2 maphack, map hack, fog of war',
-  '/dota-2-hero-esp/': 'dota 2 hero esp, player esp',
-  '/dota-2-cheats-review/': 'dota 2 cheats review, features',
-  '/dota-2-scripts/': 'dota 2 scripts, hero scripts',
-  '/faq/': 'dota 2 cheats faq',
-  '/support/': 'dota cheat support',
+  '/': 'arc raiders cheats, esp, aimbot, plans',
+  '/arc-raiders-esp/': 'arc raiders esp, player esp, loot esp, container esp',
+  '/arc-raiders-aimbot/': 'arc raiders aimbot, fov, smoothing',
+  '/arc-raiders-account-vs-hardware-ban/': 'arc raiders account ban, hardware ban, hwid ban',
+  '/faq/': 'arc raiders cheats faq, checkout',
+  '/support/': 'arc raiders support, checkout help',
 };
 
 export { INDEXABLE_MONEY_ROUTES } from '../../config/site.mjs';
 
 export const OG_IMAGES: Record<string, string> = {
   '/': '/og/home.jpg',
-  '/dota-2-maphack/': '/og/home.jpg',
-  '/dota-2-hero-esp/': '/og/home.jpg',
-  '/dota-2-cheats-review/': '/og/pricing.jpg',
-  '/dota-2-scripts/': '/og/default.jpg',
+  '/arc-raiders-esp/': '/og/home.jpg',
+  '/arc-raiders-aimbot/': '/og/default.jpg',
+  '/arc-raiders-account-vs-hardware-ban/': '/og/pricing.jpg',
   '/faq/': '/og/faq.jpg',
   '/guides/system-requirements/': '/og/requirements.jpg',
+  '/guides/cloud-dma-setup/': '/og/cloud-dma-setup.jpg',
   default: '/og/default.jpg',
 };
 
@@ -59,8 +58,12 @@ export const SITEMAP_IMAGES = buildSitemapImages(SITE_URL) as Record<string, { l
 export const KEYWORD_REDIRECTS: [string, string][] = [
   ['/pricing', '/#products'],
   ['/pricing/', '/#products'],
-  ['/arena-breakout-infinite-esp/', '/dota-2-hero-esp/'],
-  ['/arena-breakout-infinite-aimbot/', '/dota-2-scripts/'],
+  ['/arena-breakout-infinite-esp/', '/arc-raiders-esp/'],
+  ['/arena-breakout-infinite-aimbot/', '/arc-raiders-aimbot/'],
+  ['/dota-2-maphack/', '/arc-raiders-esp/'],
+  ['/dota-2-hero-esp/', '/arc-raiders-esp/'],
+  ['/dota-2-scripts/', '/arc-raiders-aimbot/'],
+  ['/dota-2-cheats-review/', '/arc-raiders-account-vs-hardware-ban/'],
   ['/arena-breakout-infinite-cheats-pricing/', '/#products'],
   ['/cloud-dma-for-arena-breakout-infinite/', '/'],
   ['/arena-breakout-infinite-hwid-spoofer/', '/products/dota-2-cheats/hwid-spoofer/'],
@@ -68,6 +71,6 @@ export const KEYWORD_REDIRECTS: [string, string][] = [
   ['/hwid-spoofer/', '/products/dota-2-cheats/hwid-spoofer/'],
   ['/sitemap-index.xml', '/sitemap.xml'],
   ['/sitemap-0.xml', '/sitemap.xml'],
-  ['/dota-2-vac-ban-risk', '/dota-2-cheats-review/'],
-  ['/dota-2-vac-ban-risk/', '/dota-2-cheats-review/'],
+  ['/dota-2-vac-ban-risk', '/arc-raiders-account-vs-hardware-ban/'],
+  ['/dota-2-vac-ban-risk/', '/arc-raiders-account-vs-hardware-ban/'],
 ];

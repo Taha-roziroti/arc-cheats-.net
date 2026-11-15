@@ -97,7 +97,10 @@ const pageFaqTopics = pageFaqs ? faqFilterTopicsForItems(pageFaqs) : [];
         </div>
         <div class="mx-auto grid max-w-6xl items-start gap-10 px-5 lg:grid-cols-[1fr_minmax(18rem,22rem)]">
           <div class="min-w-0">
-            <div class:list={['content-markdown', data.heroImage && data.route === '/' && 'product-hero-after-h1']}>
+            <div
+              class:list={['content-markdown', data.heroImage && data.route === '/' && 'product-hero-after-h1']}
+              data-content-body
+            >
               {data.heroImage && data.route === '/' ? (
                 <ContentHeroImage
                   src={data.heroImage.src}
@@ -133,7 +136,7 @@ const pageFaqTopics = pageFaqs ? faqFilterTopicsForItems(pageFaqs) : [];
       <article class="border-b border-border bg-muted/20 py-10 md:py-14">
         <div class="mx-auto max-w-6xl px-5">
           <Breadcrumbs items={breadcrumbs} class="mb-6 md:mb-8" />
-          <div class="content-markdown mt-2 max-w-3xl">
+          <div class="content-markdown mt-2 max-w-3xl" data-content-body>
             {FullContent ? <FullContent /> : null}
             <ContentFigures figures={data.figures} />
             {data.showAdditionalCostsCallout ? (
@@ -162,7 +165,7 @@ const pageFaqTopics = pageFaqs ? faqFilterTopicsForItems(pageFaqs) : [];
   {
     data.endCtaLabel ? (
       <div class="border-t border-border bg-muted/20 py-10 md:py-12">
-        <div class="mx-auto flex max-w-6xl flex-col items-start gap-4 px-5">
+        <div class="mx-auto flex max-w-6xl flex-col items-start gap-4 px-5" data-reveal="up">
           <p class="text-lg font-semibold text-foreground">{data.endCtaLabel}</p>
           <Button as="a" href={ctaHref} variant="primary" size="lg" class="rounded-xl">
             Buy now

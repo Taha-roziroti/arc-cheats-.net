@@ -1,23 +1,13 @@
 ---
-title: "Pricing | Plans placeholder"
-description: "Pricing route template with plan picker and checkout bridges. Replace tier names, amounts, and plan bullets when ready."
+title: "Legacy pricing route — title placeholder"
+description: "Placeholder pricing copy for legacy URL."
 slug: "/arena-breakout-infinite-cheats-pricing/"
 ---
 
-# Pricing placeholder
+# Pricing route placeholder
 
-Document monthly, lifetime, or bundle plans here. The checkout picker component reads from product catalog data—update `src/data/productCatalog.ts` when amounts and external URLs are known.
+![Legacy pricing placeholder still](/images/placeholder.svg)
 
-![Dota 2 cheats software interface during a teamfight](/images/showcase/dota-drow-teamfight.webp)
+[Placeholder checkout CTA](AFFILIATE_LINK_PLACEHOLDER)
 
-Mention add-ons on the [add-on product page](/cloud-dma-for-arena-breakout-infinite/) and utilities on the [utility page](/arena-breakout-infinite-hwid-spoofer/).
-
-[**Placeholder checkout CTA**](AFFILIATE_LINK_PLACEHOLDER)
-
-## Questions
-
-**Are prices live?**  
-Amounts are zeroed in site data until you configure real listings.
-
-**Where is checkout configured?**  
-Edit `src/config/checkout-redirects.mjs` for partner destinations.
+## Section placeholder

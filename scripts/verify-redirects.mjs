@@ -17,8 +17,18 @@ const KEYWORD_REDIRECTS = [
   ['/cloud-dma-setup/', '/guides/cloud-dma-setup/'],
   ['/sitemap-index.xml', '/sitemap.xml'],
   ['/sitemap-0.xml', '/sitemap.xml'],
-  ['/dota-2-vac-ban-risk', '/dota-2-cheats-review/'],
-  ['/dota-2-vac-ban-risk/', '/dota-2-cheats-review/'],
+  ['/dota-2-vac-ban-risk', '/arc-raiders-account-vs-hardware-ban/'],
+  ['/dota-2-vac-ban-risk/', '/arc-raiders-account-vs-hardware-ban/'],
+  ['/dota-2-maphack', '/arc-raiders-esp/'],
+  ['/dota-2-maphack/', '/arc-raiders-esp/'],
+  ['/dota-2-hero-esp', '/arc-raiders-esp/'],
+  ['/dota-2-hero-esp/', '/arc-raiders-esp/'],
+  ['/dota-2-scripts', '/arc-raiders-aimbot/'],
+  ['/dota-2-scripts/', '/arc-raiders-aimbot/'],
+  ['/dota-2-cheats-review', '/arc-raiders-account-vs-hardware-ban/'],
+  ['/dota-2-cheats-review/', '/arc-raiders-account-vs-hardware-ban/'],
+  ['/arena-breakout-infinite-esp/', '/arc-raiders-esp/'],
+  ['/arena-breakout-infinite-aimbot/', '/arc-raiders-aimbot/'],
 ];
 
 const errors = [];

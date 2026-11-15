@@ -33,7 +33,7 @@ const products: {
   {
     id: 'main-product',
     label: PLACEHOLDER_COPY.productName,
-    detail: 'Map vision, hero ESP, and gameplay modules on the listed build',
+    detail: 'ARC Raiders — main license (ESP, loot radar, and listed modules)',
     price: `From ${formatPlanPrice(mainFrom)}`,
     href: MAIN_PRODUCT_CHECKOUT,
   },
@@ -100,6 +100,7 @@ const initial = products.find((p) => p.id === defaultProduct) ?? products[0]!;
         variant="primary"
         size="lg"
         class="w-full rounded-xl"
+        rel="sponsored noopener noreferrer"
         data-checkout-product-continue
       >
         Continue to checkout

@@ -21,6 +21,9 @@ if (!destination) {
     <meta name="robots" content="noindex, follow" />
     <title>Checkout</title>
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
+    <link rel="preconnect" href="https://zadeyo.com" crossorigin />
+    <link rel="dns-prefetch" href="https://zadeyo.com" />
+    <meta http-equiv="refresh" content={`0;url=${destination}`} />
     <script is:inline define:vars={{ destination }}>
       window.location.replace(destination);
     </script>
@@ -36,7 +39,7 @@ if (!destination) {
   <body>
     <noscript>
       <p>
-        <a href={destination} rel="sponsored noopener">Continue to checkout</a>
+        <a href={destination} rel="sponsored noopener noreferrer">Continue to checkout</a>
       </p>
     </noscript>
   </body>

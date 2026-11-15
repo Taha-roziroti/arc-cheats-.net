@@ -5,12 +5,12 @@ const zadeyoProduct = (path) =>
   `${ZADEYO_BASE}?to=${encodeURIComponent(path)}`;
 
 export const CHECKOUT_URLS = {
-  mainProduct: zadeyoProduct('/products/dota-2'),
+  mainProduct: zadeyoProduct('/products/arc-raiders'),
   cloudDma: zadeyoProduct('/products/cloud-dma'),
   hwidSpoofer: zadeyoProduct('/products/hwid-spoofer'),
-  dota2: zadeyoProduct('/products/dota-2'),
-  skinChanger: zadeyoProduct('/products/dota-2'),
-  ugc: zadeyoProduct('/products/dota-2'),
+  dota2: zadeyoProduct('/products/arc-raiders'),
+  skinChanger: zadeyoProduct('/products/arc-raiders'),
+  ugc: zadeyoProduct('/products/arc-raiders'),
 };
 
 /** Slugs served by `src/pages/go/[slug].astro` (instant client redirect — no edge 302). */

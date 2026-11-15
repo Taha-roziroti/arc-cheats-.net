@@ -4,7 +4,7 @@ import sharp from 'sharp';
 
 const root = process.cwd();
 const ogDir = path.join(root, 'public', 'og');
-const heroSource = path.join(root, 'public', 'images', 'showcase', 'dota-drow-teamfight.webp');
+const heroSource = path.join(root, 'public', 'images', 'showcase', 'arc-esp-skeleton.webp');
 
 const outputs = [
   'default.jpg',

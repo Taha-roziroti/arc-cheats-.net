@@ -1,4 +1,4 @@
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 
 function normalizeRoute(value: string): string {
   if (value === '' || value === '/') return '/';
@@ -38,16 +38,11 @@ function pageMatchesId(page: { id: string; data: unknown }, id: string): boolean
 
 /** Resolve a `pages` collection entry by filename stem, route, or marketing slug. */
 export async function loadContentPage(id: string) {
-  const ref = { collection: 'pages' as const, id };
-  let entry = await getEntry(ref);
+  const pages = await getCollection('pages');
+  const entry = pages.find((page) => pageMatchesId(page, id));
 
   if (!entry) {
-    const pages = await getCollection('pages');
-    entry = pages.find((page) => pageMatchesId(page, id));
-  }
-
-  if (!entry) {
-    const available = (await getCollection('pages')).map((page) => page.id).join(', ');
+    const available = pages.map((page) => page.id).join(', ');
     throw new Error(
       `Content page not found: ${id}${available ? `. Available: ${available}` : ' (pages collection is empty — run astro sync or restart dev)'}`,
     );

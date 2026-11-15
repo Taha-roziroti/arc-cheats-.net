@@ -1,70 +1,49 @@
 ---
-title: "Dota 2 Hero ESP: Player Levels, Items & ESP Overlays"
-description: "Explore Dota 2 hero ESP features, including player levels, item information and enemy inventory visibility. See the listed functionality."
+title: "ARC Raiders Player ESP: Bones, Boxes & Distance"
+description: "Player ESP guide for ARC Raiders with bone overlays, bounding boxes, and meter readouts. See indoor and CQB examples before checkout."
 slug: "/dota-2-hero-esp/"
 ---
 
-# Dota 2 Hero ESP Features
+# Player ESP overlays
 
-Knowing what the enemy team has is a big part of understanding what's happening in a Dota 2 match.
+**Player ESP** covers bones, boxes, nameplates, and distance readouts in ARC Raiders. The screenshots here are the reference for support and sales copy: they show what shoppers should expect during CQB and mid-range fights.
 
-A hero might look harmless on the map, then suddenly have an item that changes an entire engagement. Missing that information can make an otherwise predictable situation feel pretty confusing.
+![Bone ESP and box on target](/images/showcase/arc-esp-skeleton.webp)
 
-That's where **Dota 2 hero ESP** comes into the picture. The Zadeyo listing includes hero ESP with item and level information, alongside a separate enemy inventory ESP feature.
+## On-screen elements
 
-Here's what the current product information actually tells us.
+Bone lines trace limbs and torsos while a bounding box frames the target. Meter text sits near the feet or chest depending on vendor theme. Document which elements can be throttled at range so long-distance raids do not clutter the screen.
 
-## What the Dota 2 hero ESP page says you get
+Nameplates in other stills complement this page—use them together when you explain ally versus enemy filters. Keep disclaimers about fair play and publisher terms adjacent to buy buttons on money pages.
 
-The listed hero ESP feature includes information about heroes, their items and their levels.
+## Indoor ranges
 
-Enemy inventory ESP is also included as a separate feature.
+Confined rooms highlight wireframe silhouettes and container markers at the same time. That combination answers common pre-sale questions about whether ESP collapses when two overlay types are active.
 
-That gives the package two clearly described player-information functions. The listing doesn't provide a detailed technical explanation of the interface or every piece of information displayed, so those specifics should be checked against the actual product showcase.
+![Indoor ESP with player wireframe](/images/showcase/arc-esp-indoor-radar.webp)
 
-We're not going to claim that it displays information that hasn't been confirmed.
+Readers comparing loot modules should open the [container marker guide](/dota-2-maphack/). Shoppers ready to pay can use the sidebar picker or the [on-site product picker](/go/).
 
-## Player information and enemy hero ESP
+[Continue to checkout](AFFILIATE_LINK_PLACEHOLDER)
 
-The main idea behind Dota 2 player ESP is to make additional player-related information visible through an interface.
+Return to the [review page](/dota-2-cheats-review/) for inventory UI and wide radar examples that complement player ESP.
 
-The supplied feature list identifies hero levels and items. It also explicitly mentions enemy inventory information.
+## Ally versus enemy filters
 
-That's the material worth looking at when comparing the product against other options.
+Document whether bone ESP can ignore downed players, drones, or decoys. Screenshots should map one-to-one with toggle names in the vendor panel. If a filter is missing from the build, say so here instead of implying parity with marketing one-pagers.
 
-Check the screenshots for yourself. In particular, look at how the hero information is arranged and whether the displayed details match the features described in the listing.
+## Font scale and accessibility
 
-## How hero ESP fits with the rest of the package
+Some builds allow font scaling on nameplates and distance tags. Mention default sizes and whether outlines stay readable on bright maps. Indoor shots on this route double as contrast checks for dark corridors.
 
-Hero information isn't the only part of the product.
+## Combining with loot ESP
 
-The same package includes full map hack functionality, ward placement ESP, cooldown tracking and several timing features.
+Player ESP and loot ESP share screen space. Link readers to the [loot radar stills](/dota-2-maphack/) when they need container dots, and keep checkout paths separate: main license versus utilities stay in the [ARC checkout bridge](/go/).
 
-That means the ESP functionality is presented as part of a larger Dota 2 package rather than a standalone hero-information tool.
+## Compliance reminder
 
-The [Dota 2 maphack page](/dota-2-maphack/) covers the map-related features separately. You can also check the [complete package and subscription details](/) before deciding which option makes sense.
+Third-party software may conflict with publisher terms. We publish screenshots and summaries so adults can evaluate risk; we do not operate the underlying client. Update this section when your legal review supplies finalized wording.
 
-## Requirements and product details
+## Screenshot upkeep
 
-The listed operating systems are Windows 10 and Windows 11.
-
-The product page also specifies HVCI, Core Isolation, TPM and Secure Boot as required settings. Cloud DMA is required for full functionality on supported builds.
-
-The exact compatibility details for individual Windows editions and game builds are [NEEDS INFO]. Check those before making a purchase.
-
-[See the Dota 2 product and available plans](AFFILIATE_LINK_PLACEHOLDER)
-
-## What to look for in an ESP demonstration
-
-A feature name alone doesn't tell you much about the actual experience.
-
-When checking the showcase, pay attention to:
-
-- How hero levels and item information are presented.
-- What the enemy inventory display actually contains.
-- Whether the screenshots represent the current product version.
-- Which settings are available in the interface.
-
-If the seller can provide a current demonstration, that's a much better reference than guessing from a short description.
-
-The product listing gives you a starting point. The actual interface should help you decide whether the feature set matches what you're looking for.
+Replace gallery stills when the vendor ships a new HUD theme. Alt text should mention bone ESP, boxes, or distance tags explicitly so image search and accessibility stay aligned with on-page keywords.

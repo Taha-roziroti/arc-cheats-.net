@@ -4,10 +4,11 @@ import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../Breadcrumbs.astro';
 import CheckoutDirectPanel from '../checkout/CheckoutDirectPanel.astro';
+import CheckoutProductChooser from '../checkout/CheckoutProductChooser.astro';
 import type { CheckoutProductId } from '../checkout/CheckoutProductPicker.astro';
 import AdditionalCostsCallout from '../checkout/AdditionalCostsCallout.astro';
 import { loadContentPage } from '../../utils/loadContentPage';
-import { injectAffiliateLinks, checkoutProductForSlug } from '../../utils/affiliateLinks';
+import { injectAffiliateLinks, checkoutPanelProductId, checkoutProductForSlug } from '../../utils/affiliateLinks';
 import { breadcrumbSchema, faqPageSchemaFromPairs, webPageSchema } from '../../utils/schema';
 import { SITE_NAME, ogImageForPath } from '../../data/site';
 import { faqItemsFromMarkdown } from '../../utils/markdownFaq';
@@ -42,13 +43,10 @@ if (!('slug' in data) || !('title' in data) || !('description' in data)) {
 }
 
 const slug = data.slug.endsWith('/') || data.slug === '/' ? data.slug : `${data.slug}/`;
+const directPanelProduct = checkoutPanelProductId(slug);
 const checkoutProduct: CheckoutProductId =
-  checkoutProductProp ??
-  (checkoutProductForSlug(slug) === 'cloudDma'
-    ? 'cloud-dma'
-    : checkoutProductForSlug(slug) === 'hwidSpoofer'
-      ? 'hwid-spoofer'
-      : 'main-product');
+  checkoutProductProp ?? directPanelProduct ?? 'main-product';
+const useCheckoutChooser = !checkoutProductProp && directPanelProduct === null;
 
 const patchedEntry = {
   ...entry,
@@ -101,11 +99,19 @@ const previewShot = previewSrc ? SHOWCASE_SHOTS.find((s) => s.src === previewSrc
             <Content />
             {showAdditionalCosts ? <AdditionalCostsCallout class="not-prose mt-8" /> : null}
             <div class="not-prose mt-8 lg:hidden">
-              <CheckoutDirectPanel product={checkoutProduct} />
+              {useCheckoutChooser ? (
+                <CheckoutProductChooser defaultProduct="main-product" />
+              ) : (
+                <CheckoutDirectPanel product={checkoutProduct} />
+              )}
             </div>
           </article>
           <div class="hidden lg:block">
-            <CheckoutDirectPanel product={checkoutProduct} />
+            {useCheckoutChooser ? (
+              <CheckoutProductChooser defaultProduct="main-product" />
+            ) : (
+              <CheckoutDirectPanel product={checkoutProduct} />
+            )}
           </div>
         </div>
       </section>

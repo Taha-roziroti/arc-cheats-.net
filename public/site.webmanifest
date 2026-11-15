@@ -1,7 +1,7 @@
 {
-  "name": "DotaCheat",
-  "short_name": "DotaCheat",
-  "description": "Dota 2 cheats guides and checkout paths for Windows PC.",
+  "name": "ARC Raiders",
+  "short_name": "ARC Raiders",
+  "description": "Product guides and checkout paths.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f0f14",

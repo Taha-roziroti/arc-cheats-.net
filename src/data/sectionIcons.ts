@@ -1,6 +1,9 @@
 import type { IconName } from '../components/icons/types';
 
 export const featureIcons: Record<string, IconName> = {
+  'Player ESP': 'featureEsp',
+  'Loot radar': 'lootEsp',
+  'Loadout menu': 'featureUtilitySuite',
   'Enemy ESP': 'featureEsp',
   'Loot ESP': 'lootEsp',
   'Soft aim': 'featureAimbot',

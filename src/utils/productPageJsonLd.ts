@@ -14,9 +14,8 @@ import { productSchema } from './schema';
 import { ABI_PAGE_PREVIEW } from '../data/abiImages';
 
 const ROUTE_PRODUCT_IMAGE: Record<string, string> = {
-  '/dota-2-maphack/': ABI_PAGE_PREVIEW['/dota-2-maphack/']!,
-  '/dota-2-hero-esp/': ABI_PAGE_PREVIEW['/dota-2-hero-esp/']!,
-  '/dota-2-cheats-review/': ABI_PAGE_PREVIEW['/dota-2-cheats-review/']!,
+  '/arc-raiders-esp/': ABI_PAGE_PREVIEW['/arc-raiders-esp/']!,
+  '/arc-raiders-aimbot/': ABI_PAGE_PREVIEW['/arc-raiders-aimbot/']!,
 };
 
 export function productJsonLdForRoute(

@@ -13,7 +13,6 @@ const dist = path.join(projectRoot, 'dist');
 
 const AUDIT_HTML_ROUTES = new Set([
   ...INDEXABLE_MONEY_ROUTES,
-  '/dota-2-scripts/',
   '/guides/system-requirements/',
   '/guides/cloud-dma-setup/',
   '/about/',
@@ -21,6 +20,8 @@ const AUDIT_HTML_ROUTES = new Set([
   '/privacy/',
   '/terms/',
   '/faq/',
+  '/contact/',
+  '/affiliate-disclosure/',
 ]);
 
 const BY_CATEGORY = {
@@ -84,7 +85,10 @@ const REDIRECT_ONLY = new Set([
   '/cloud-dma/',
   '/hwid-spoofer/',
   '/cheats/',
-  '/contact/',
+  '/dota-2-maphack/',
+  '/dota-2-hero-esp/',
+  '/dota-2-scripts/',
+  '/dota-2-cheats-review/',
   '/arena-breakout-infinite-esp/',
   '/arena-breakout-infinite-aimbot/',
   '/arena-breakout-infinite-cheats-pricing/',
@@ -174,6 +178,13 @@ function auditPage(route, html, file) {
       if (pat.test(html)) {
         fail('hygiene', `${route}: template leakage matched ${pat}`);
       }
+    }
+  }
+
+  if (AUDIT_HTML_ROUTES.has(route)) {
+    const main = html.match(/<main[\s\S]*?<\/main>/i)?.[0] ?? html;
+    if (/\bplaceholder\b/i.test(main)) {
+      fail('hygiene', `${route}: visible "placeholder" in main content`);
     }
   }
 
@@ -274,6 +285,7 @@ function main() {
   runSubcommand('node', ['scripts/verify-unique-copy.mjs'], 'verify-unique-copy');
   runSubcommand('node', ['scripts/verify-images.mjs'], 'verify-images');
   runSubcommand('node', ['scripts/verify-anchor-text.mjs'], 'verify-anchor-text');
+  runSubcommand('node', ['scripts/build-anchor-inventory.mjs'], 'build-anchor-inventory');
 
   const files = walkHtmlFiles(dist);
   for (const file of files) {

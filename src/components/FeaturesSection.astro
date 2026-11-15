@@ -4,8 +4,17 @@ import { featureIcons } from '../data/sectionIcons';
 import SectionHeader from './SectionHeader.astro';
 import Icon from './icons/Icon.astro';
 import { Badge } from '@/components/starwind/badge';
+import ResponsiveImage from './ResponsiveImage.astro';
+import { SHOWCASE_SHOTS } from '../data/showcaseImages';
+import { CARD_IMAGE_SIZES, CARD_IMAGE_WIDTHS } from '../utils/responsiveImage';
 
 const s = t.features;
+
+const featurePreviewByTitle: Record<string, string> = {
+  'Player ESP': SHOWCASE_SHOTS[0]!.src,
+  'Loot radar': SHOWCASE_SHOTS[1]!.src,
+  'Loadout menu': SHOWCASE_SHOTS[4]!.src,
+};
 
 function isScriptsHero(title: string) {
   return title === 'Enemy ESP';
@@ -30,10 +39,13 @@ function isScriptsHero(title: string) {
       {
         s.items.map((item) => {
           const scriptsHero = isScriptsHero(item.title);
+          const previewSrc = featurePreviewByTitle[item.title];
+          const previewAlt =
+            SHOWCASE_SHOTS.find((shot) => shot.src === previewSrc)?.alt ?? `${item.title} preview`;
           return (
             <article
               class:list={[
-                'group flex h-full min-h-0 flex-col overflow-hidden rounded-2xl border border-border bg-card text-left shadow-sm transition-[transform,border-color] duration-300 hover:-translate-y-0.5 hover:border-primary/35',
+                'group flex h-full min-h-0 flex-col overflow-hidden rounded-2xl border border-border bg-card text-left shadow-sm transition-colors duration-200 hover:border-border',
                 item.bento ?? 'sm:col-span-2 lg:col-span-4',
                 scriptsHero && 'features-bento-card--scripts',
               ]}
@@ -101,6 +113,18 @@ function isScriptsHero(title: string) {
                     </header>
 
                     <div class="flex min-h-0 flex-1 flex-col gap-3 px-5 py-4 sm:px-6">
+                      {previewSrc ? (
+                        <ResponsiveImage
+                          src={previewSrc}
+                          alt={previewAlt}
+                          width={640}
+                          height={360}
+                          widths={CARD_IMAGE_WIDTHS}
+                          sizes={CARD_IMAGE_SIZES}
+                          loading="lazy"
+                          class="w-full rounded-xl border border-border object-cover"
+                        />
+                      ) : null}
                       <p class="text-sm leading-relaxed text-muted-foreground">{item.desc}</p>
 
                       {

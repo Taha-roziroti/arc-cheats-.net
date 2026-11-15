@@ -48,23 +48,21 @@ export function checkoutPathForProductId(product: CheckoutProductPageId): string
 /** Map internal product slugs to checkout redirect paths. */
 export function checkoutForSlug(slug: string): string {
   switch (slug) {
-    case 'unlock-all':
-      return checkoutPath('skinChanger');
     case 'hwid-spoofer':
       return checkoutPath('hwidSpoofer');
-    case 'ugc':
-    case 'account-recovery':
-      return checkoutPath('ugc');
+    case 'cloud-dma':
+      return checkoutPath('cloudDma');
     case 'lite':
     case 'pro':
     case 'elite':
     case 'main-product':
     case 'borderlands-3':
       return checkoutPath('mainProduct');
-    case 'cloud-dma':
-      return checkoutPath('cloudDma');
+    case 'unlock-all':
+    case 'ugc':
+    case 'account-recovery':
     default:
-      return checkoutPath('mainProduct');
+      return PRIMARY_CHECKOUT_PATH;
   }
 }
 
@@ -111,8 +109,13 @@ export function resolveCheckoutHref(href: string): string {
   if (href.includes('%2Fproducts%2Fugc') || href.includes('/products/ugc')) {
     return checkoutPath('ugc');
   }
-  if (href.includes('%2Fproducts%2Fdota-2') || href.includes('/products/dota-2')) {
-    return checkoutPath('dota2');
+  if (
+    href.includes('%2Fproducts%2Farc-raiders') ||
+    href.includes('/products/arc-raiders') ||
+    href.includes('%2Fproducts%2Fdota-2') ||
+    href.includes('/products/dota-2')
+  ) {
+    return checkoutPath('mainProduct');
   }
 
   return href;

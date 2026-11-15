@@ -1,23 +1,13 @@
 ---
-title: "Feature page B | Content placeholder"
-description: "Second feature landing page shell with FAQ blocks and affiliate injection ready for your finalized feature descriptions."
+title: "Legacy route B — title placeholder"
+description: "Placeholder content for redirect or mirror route B."
 slug: "/arena-breakout-infinite-aimbot/"
 ---
 
-# Feature page B
+# Route B placeholder
 
-Reserve this URL for a second feature cluster—controls, tuning options, or combat assistance documentation depending on your catalog.
+![Legacy route B placeholder still](/images/placeholder.svg)
 
-![Dota 2 scripts interface with ability cooldown overlays](/images/showcase/dota-magnus-overlay.webp)
+[Placeholder checkout CTA](AFFILIATE_LINK_PLACEHOLDER)
 
-Cross-link to [feature page A](/arena-breakout-infinite-esp/) and the [requirements guide](/guides/system-requirements/) while content is in progress.
-
-[**Placeholder checkout CTA**](AFFILIATE_LINK_PLACEHOLDER)
-
-## Questions
-
-**Can I rename this route later?**  
-Update the slug in frontmatter, page file, and redirects together to avoid broken links.
-
-**Where do images go?**  
-Replace `/images/placeholder.svg` with optimized WebP assets under `public/images/`.
+## Section placeholder

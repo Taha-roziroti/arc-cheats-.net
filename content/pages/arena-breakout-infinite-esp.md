@@ -1,23 +1,17 @@
 ---
-title: "Feature page A | Content placeholder"
-description: "First feature landing page shell with markdown layout, breadcrumbs, and checkout panel slots awaiting your documentation."
+title: "Legacy route A — title placeholder"
+description: "Placeholder content for redirect or mirror route A."
 slug: "/arena-breakout-infinite-esp/"
 ---
 
-# Feature page A
+# Route A placeholder
 
-Use this route for your first major feature explanation. The article wrapper, table of contents hooks, and checkout sidebar stay functional while you draft long-form copy.
+This URL may redirect in production; keep placeholder copy until you finalize keyword routing.
 
-![Dota 2 hero ESP overlay in a skirmish](/images/showcase/dota-axe-combat.webp)
+![Legacy route A placeholder still](/images/placeholder.svg)
 
-Link readers to [feature page B](/arena-breakout-infinite-aimbot/), [pricing](/arena-breakout-infinite-cheats-pricing/), or the [homepage](/) as you build cross-links.
+[Placeholder checkout CTA](AFFILIATE_LINK_PLACEHOLDER)
 
-[**Placeholder checkout CTA**](AFFILIATE_LINK_PLACEHOLDER)
+## Section placeholder
 
-## Questions
-
-**What belongs on this page?**  
-Product feature details, screenshots, and FAQs specific to module A.
-
-**Is this indexed?**  
-Yes—SEO metadata is wired; swap title and description when your keywords are final.
+Add content if this route stays indexed.

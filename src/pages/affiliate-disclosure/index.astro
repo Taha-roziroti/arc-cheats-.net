@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LegalPage from '../../components/LegalPage.astro';
+import { getPageSeoEntry } from '../../config/pageSeo';
+import { breadcrumbSchema, webPageSchema } from '../../utils/schema';
+
+const seo = getPageSeoEntry('/affiliate-disclosure/')!;
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Affiliate disclosure', path: '/affiliate-disclosure/' },
+];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  logoAlt="Affiliate disclosure – site logo"
+  jsonLd={[
+    webPageSchema({ name: seo.title, description: seo.description, url: '/affiliate-disclosure/' }),
+    breadcrumbSchema(breadcrumbs),
+  ]}
+>
+  <LegalPage
+    title="Affiliate disclosure"
+    description="How arc-cheats.net earns from checkout links and what that means for readers in the United States."
+    breadcrumbLabel="Affiliate disclosure"
+    sections={[
+      {
+        heading: 'Affiliate relationships',
+        paragraphs: [
+          'Some links on this site route through affiliate partners before you reach the vendor checkout page. We may earn a commission when you complete a purchase, at no extra cost to you.',
+          'Product screenshots and copy describe modules we preview on this domain; the vendor delivers licenses and support after payment.',
+        ],
+      },
+      {
+        heading: 'Editorial independence',
+        paragraphs: [
+          'We publish independent guides and do not guarantee detection status, ban rates, or feature parity with every game patch.',
+          'Compare plans on the homepage, read the ban guide, and confirm pricing on the vendor page before you buy.',
+        ],
+      },
+    ]}
+  />
+</BaseLayout>

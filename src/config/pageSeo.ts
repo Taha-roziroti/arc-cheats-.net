@@ -1,5 +1,6 @@
 /**
  * Central titles/descriptions (mirrors content/pages frontmatter).
+ * Length targets: title 35–72 chars, description 110–165 chars (verify-seo.mjs).
  */
 
 export interface PageSeoEntry {
@@ -9,64 +10,74 @@ export interface PageSeoEntry {
 
 export const PAGE_SEO: Record<string, PageSeoEntry> = {
   '/': {
-    title: 'Dota 2 Cheats: Features, Pricing & Windows PC Plans',
+    title: 'Arc Raiders Cheats | ESP, Aimbot & Feature Details',
     description:
-      'See Dota 2 cheats features, Windows requirements and current plans. Compare the 31-day and lifetime options before choosing.',
+      'Compare Arc Raiders ESP, aimbot options, system requirements, and current plans. Review the full feature list before choosing an access option.',
   },
-  '/dota-2-maphack/': {
-    title: 'Dota 2 Maphack: Map Vision, Ward ESP & Fog Control',
+  '/arc-raiders-esp/': {
+    title: 'Arc Raiders ESP | Player, Loot & Container ESP',
     description:
-      'See what the Dota 2 maphack listing says about fog of war, ward placement ESP and map information. Check the feature details.',
+      'See Arc Raiders ESP: player overlays, loot filters, containers, ARC markers and extraction points. Compare features before checkout.',
   },
-  '/dota-2-hero-esp/': {
-    title: 'Dota 2 Hero ESP: Player Levels, Items & ESP Overlays',
+  '/arc-raiders-aimbot/': {
+    title: 'Arc Raiders Aimbot | FOV & Targeting Options',
     description:
-      'Explore Dota 2 hero ESP features, including player levels, item information and enemy inventory visibility. See the listed functionality.',
+      'Review Arc Raiders aimbot controls, including FOV, smoothing, speed, stickiness and visibility checks. See the feature list and current plan details.',
   },
-  '/dota-2-cheats-review/': {
-    title: 'Dota 2 Cheats Review: Features, Pricing & Verdict',
+  '/arc-raiders-account-vs-hardware-ban/': {
+    title: 'Arc Raiders Account vs Hardware Ban Guide',
     description:
-      'Read our Dota 2 cheats review covering listed features, Windows requirements, plans and pricing. Check the details before purchasing.',
+      'Learn how Arc Raiders account and hardware bans differ, review official enforcement details, and check the facts before contacting support.',
   },
   '/dota-2-scripts/': {
-    title: 'Dota 2 Scripts Guide: Last-Hit Help & Auto-Dodge',
+    title: 'ARC Raiders HUD Tools: Timers, Breach & Indoor ESP',
     description:
-      'Understand Dota 2 scripts, last-hit assistance and auto-dodge features. See how individual functions compare with a full product package.',
+      'HUD and indoor assist screenshots for ARC Raiders, including breach lighting and timer overlays. Pair visuals with your vendor feature list.',
   },
   '/faq/': {
-    title: 'Dota 2 Cheats FAQ: Plans, Pricing & Windows Setup',
+    title: 'ARC Raiders Cheats FAQ: Plans, DMA & Checkout',
     description:
-      'Frequently asked questions about Dota 2 cheat plans, Windows requirements, checkout, and how feature lists map to the current product build.',
+      'FAQ for ARC Raiders plans, Cloud DMA add-ons, HWID utilities, and how checkout routes through the on-site product picker.',
   },
   '/support/': {
-    title: 'DotaCheat Support: Checkout Help & License Delivery',
+    title: 'ARC Raiders Support: Checkout & License Help',
     description:
-      'Get help with Dota 2 cheat checkout, license delivery, and Windows compatibility before you purchase or install supported modules.',
+      'Support channels for ARC Raiders orders, license delivery, and Windows setup via email, FAQ, and setup guides.',
   },
   '/about/': {
-    title: 'About DotaCheat – Independent Dota 2 Product Guides',
+    title: 'About ARC-Cheats — Independent Product Guides',
     description:
-      'Learn how DotaCheat publishes feature guides, pricing, and setup notes for Windows players evaluating third-party Dota 2 software.',
+      'How arc-cheats.net publishes independent ARC Raiders guides, screenshots, and affiliate checkout paths for informed PC shoppers.',
   },
   '/guides/system-requirements/': {
-    title: 'Dota 2 Cheat System Requirements: Windows 10 & 11 PC',
+    title: 'ARC Raiders Cheat Requirements: Windows PC Guide',
     description:
-      'Windows 10 and 11 requirements for Dota 2 cheat software, including RAM, CPU, Steam client builds, and security settings to verify first.',
+      'Windows PC requirements checklist for ARC Raiders modules, with gameplay stills showing HUD load. Confirm CPU, RAM, and GPU before purchase.',
   },
   '/guides/cloud-dma-setup/': {
-    title: 'Cloud DMA Setup Guide for Dota 2 on Windows PC',
+    title: 'Cloud DMA Setup for ARC Raiders on Windows PC',
     description:
-      'Prepare Hyper-V, firmware, and network settings before optional Cloud DMA add-ons. Step-by-step checklist for United States Windows builds.',
+      'Cloud DMA preparation guide with indoor breach screenshots. Hyper-V and firmware steps belong here after vendor documentation is wired in.',
   },
   '/privacy/': {
-    title: 'DotaCheat Privacy Policy – Analytics & Support Email',
+    title: 'Privacy Policy — Analytics, Email & Checkout Data',
     description:
-      'Privacy policy for dotacheat.com: analytics cookies, support email, and checkout partner data when you contact us or complete an order.',
+      'Privacy policy for arc-cheats.net covering analytics, support email, and checkout partner data when you contact us or complete an order.',
   },
   '/terms/': {
-    title: 'DotaCheat Terms of Service: Licenses, Pricing & Refunds',
+    title: 'Terms of Service — Licenses, Pricing & Refunds',
     description:
-      'Terms and conditions for Dota 2 cheat plans, refunds, and acceptable use on supported Windows PCs purchased through our checkout flow.',
+      'Terms and acceptable-use notes for plans listed on arc-cheats.net. Vendor checkout terms apply when you complete a purchase.',
+  },
+  '/affiliate-disclosure/': {
+    title: 'Affiliate Disclosure — Arc Cheats',
+    description:
+      'How arc-cheats.net uses affiliate checkout links, what we earn, and how that affects product recommendations on Arc Raiders guides.',
+  },
+  '/contact/': {
+    title: 'Contact Arc Cheats — Support & Orders',
+    description:
+      'Contact arc-cheats.net for order questions, license delivery, and Windows setup help before you open vendor checkout.',
   },
 };
 

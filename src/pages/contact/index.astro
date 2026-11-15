@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContactSupportSection from '../../components/ContactSupportSection.astro';
+import { getPageSeoEntry } from '../../config/pageSeo';
+import { breadcrumbSchema, webPageSchema } from '../../utils/schema';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+const seo = getPageSeoEntry('/contact/')!;
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Contact', path: '/contact/' },
+];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  logoAlt="Contact – site logo"
+  jsonLd={[
+    webPageSchema({ name: seo.title, description: seo.description, url: '/contact/' }),
+    breadcrumbSchema(breadcrumbs),
+  ]}
+>
+  <section class="border-b border-border bg-muted/20 py-8 md:py-10">
+    <div class="mx-auto max-w-6xl px-5">
+      <Breadcrumbs items={breadcrumbs} />
+    </div>
+  </section>
+  <ContactSupportSection titleId="contact-page-title" showTicketTips />
+</BaseLayout>

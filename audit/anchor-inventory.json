@@ -1,0 +1,3550 @@
+{
+  "generatedAt": "2026-11-15T04:41:36.817Z",
+  "count": 443,
+  "anchors": [
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Fabout%2F&amp;text=About%20ARC-Cheats%20%E2%80%94%20Independent%20Product%20Guides",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2Fabout%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Fabout%2F&amp;text=About%20ARC-Cheats%20%E2%80%94%20Independent%20Product%20Guides",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Fabout%2F&amp;title=About%20ARC-Cheats%20%E2%80%94%20Independent%20Product%20Guides",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=About%20ARC-Cheats%20%E2%80%94%20Independent%20Product%20Guides%20https%3A%2F%2Farc-cheats.net%2Fabout%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/about/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/affiliate-disclosure/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "support tickets",
+      "normalized": "support tickets",
+      "href": "/contact/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "affiliate disclosure",
+      "normalized": "affiliate disclosure",
+      "href": "/affiliate-disclosure/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Arc Raiders licensing FAQ",
+      "normalized": "arc raiders licensing faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "ESP feature overview",
+      "normalized": "esp feature overview",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "View Arc Raiders product information",
+      "normalized": "view arc raiders product information",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Explore the Arc Raiders ESP feature overview",
+      "normalized": "explore the arc raiders esp feature overview",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Contact our support team",
+      "normalized": "contact our support team",
+      "href": "/contact/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "ESP screenshots",
+      "normalized": "esp screenshots",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F&amp;text=Arc%20Raiders%20Account%20vs%20Hardware%20Ban%20Guide",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F&amp;text=Arc%20Raiders%20Account%20vs%20Hardware%20Ban%20Guide",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F&amp;title=Arc%20Raiders%20Account%20vs%20Hardware%20Ban%20Guide",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=Arc%20Raiders%20Account%20vs%20Hardware%20Ban%20Guide%20https%3A%2F%2Farc-cheats.net%2Farc-raiders-account-vs-hardware-ban%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-account-vs-hardware-ban/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Arc Raiders ESP documentation",
+      "normalized": "arc raiders esp documentation",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Arc Raiders aim module requirements sheet",
+      "normalized": "arc raiders aim module requirements sheet",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Explore the complete Arc Raiders cheats product",
+      "normalized": "explore the complete arc raiders cheats product",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Discover Arc Raiders ESP features",
+      "normalized": "discover arc raiders esp features",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Arc Raiders account vs hardware ban guide",
+      "normalized": "arc raiders account vs hardware ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Arc Raiders ESP tour",
+      "normalized": "arc raiders esp tour",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "PC tuning notes for Arc Raiders",
+      "normalized": "pc tuning notes for arc raiders",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Continue to checkout",
+      "normalized": "continue to checkout",
+      "href": "/go/main-product/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F&amp;text=Arc%20Raiders%20Aimbot%20%7C%20FOV%20%26%20Targeting%20Options",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F&amp;text=Arc%20Raiders%20Aimbot%20%7C%20FOV%20%26%20Targeting%20Options",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F&amp;title=Arc%20Raiders%20Aimbot%20%7C%20FOV%20%26%20Targeting%20Options",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=Arc%20Raiders%20Aimbot%20%7C%20FOV%20%26%20Targeting%20Options%20https%3A%2F%2Farc-cheats.net%2Farc-raiders-aimbot%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-aimbot/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Arc Raiders cheats homepage",
+      "normalized": "arc raiders cheats homepage",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "View the complete Arc Raiders cheats product",
+      "normalized": "view the complete arc raiders cheats product",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Explore Arc Raiders aimbot features",
+      "normalized": "explore arc raiders aimbot features",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Read the Arc Raiders hardware ban guide",
+      "normalized": "read the arc raiders hardware ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Windows compatibility checklist",
+      "normalized": "windows compatibility checklist",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Arc Raiders cheats",
+      "normalized": "arc raiders cheats",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Continue to checkout",
+      "normalized": "continue to checkout",
+      "href": "/go/main-product/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-esp%2F&amp;text=Arc%20Raiders%20ESP%20%7C%20Player%2C%20Loot%20%26%20Container%20ESP",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2Farc-raiders-esp%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-esp%2F&amp;text=Arc%20Raiders%20ESP%20%7C%20Player%2C%20Loot%20%26%20Container%20ESP",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Farc-raiders-esp%2F&amp;title=Arc%20Raiders%20ESP%20%7C%20Player%2C%20Loot%20%26%20Container%20ESP",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=Arc%20Raiders%20ESP%20%7C%20Player%2C%20Loot%20%26%20Container%20ESP%20https%3A%2F%2Farc-cheats.net%2Farc-raiders-esp%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/arc-raiders-esp/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/contact/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "ARC product picker",
+      "normalized": "arc product picker",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "hardware ban explainer",
+      "normalized": "hardware ban explainer",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Arc Raiders overlay PC requirements",
+      "normalized": "arc raiders overlay pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Arc Raiders ESP stills",
+      "normalized": "arc raiders esp stills",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "aimbot control notes",
+      "normalized": "aimbot control notes",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Embark ban enforcement primer",
+      "normalized": "embark ban enforcement primer",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Ffaq%2F&amp;text=ARC%20Raiders%20Cheats%20FAQ%3A%20Plans%2C%20DMA%20%26%20Checkout",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2Ffaq%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Ffaq%2F&amp;text=ARC%20Raiders%20Cheats%20FAQ%3A%20Plans%2C%20DMA%20%26%20Checkout",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Ffaq%2F&amp;title=ARC%20Raiders%20Cheats%20FAQ%3A%20Plans%2C%20DMA%20%26%20Checkout",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=ARC%20Raiders%20Cheats%20FAQ%3A%20Plans%2C%20DMA%20%26%20Checkout%20https%3A%2F%2Farc-cheats.net%2Ffaq%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/faq/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "DMA hardware prerequisites",
+      "normalized": "dma hardware prerequisites",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "billing support inbox",
+      "normalized": "billing support inbox",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "site homepage",
+      "normalized": "site homepage",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Fguides%2Fcloud-dma-setup%2F&amp;text=Cloud%20DMA%20Setup%20for%20ARC%20Raiders%20on%20Windows%20PC",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2Fguides%2Fcloud-dma-setup%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Fguides%2Fcloud-dma-setup%2F&amp;text=Cloud%20DMA%20Setup%20for%20ARC%20Raiders%20on%20Windows%20PC",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Fguides%2Fcloud-dma-setup%2F&amp;title=Cloud%20DMA%20Setup%20for%20ARC%20Raiders%20on%20Windows%20PC",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=Cloud%20DMA%20Setup%20for%20ARC%20Raiders%20on%20Windows%20PC%20https%3A%2F%2Farc-cheats.net%2Fguides%2Fcloud-dma-setup%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/cloud-dma-setup/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Plans",
+      "normalized": "plans",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "optional DMA setup article",
+      "normalized": "optional dma setup article",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "affiliate checkout bridge",
+      "normalized": "affiliate checkout bridge",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Fguides%2Fsystem-requirements%2F&amp;text=ARC%20Raiders%20Cheat%20Requirements%3A%20Windows%20PC%20Guide",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2Fguides%2Fsystem-requirements%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Fguides%2Fsystem-requirements%2F&amp;text=ARC%20Raiders%20Cheat%20Requirements%3A%20Windows%20PC%20Guide",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Fguides%2Fsystem-requirements%2F&amp;title=ARC%20Raiders%20Cheat%20Requirements%3A%20Windows%20PC%20Guide",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=ARC%20Raiders%20Cheat%20Requirements%3A%20Windows%20PC%20Guide%20https%3A%2F%2Farc-cheats.net%2Fguides%2Fsystem-requirements%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "ARC Raiders Cheats",
+      "normalized": "arc raiders cheats",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Cloud DMA",
+      "normalized": "cloud dma",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "HWID spoofer",
+      "normalized": "hwid spoofer",
+      "href": "/products/dota-2-cheats/hwid-spoofer/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Explore ARC Raiders ESP features",
+      "normalized": "explore arc raiders esp features",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "View Arc Raiders aimbot options",
+      "normalized": "view arc raiders aimbot options",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Understand Arc Raiders hardware bans",
+      "normalized": "understand arc raiders hardware bans",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "View plans and checkout",
+      "normalized": "view plans and checkout",
+      "href": "/go/main-product/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Windows PC requirements checklist",
+      "normalized": "windows pc requirements checklist",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "checkout routing FAQ",
+      "normalized": "checkout routing faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "order support desk",
+      "normalized": "order support desk",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2F&amp;text=Arc%20Raiders%20Cheats%20%7C%20ESP%2C%20Aimbot%20%26%20Feature%20Details",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2F&amp;text=Arc%20Raiders%20Cheats%20%7C%20ESP%2C%20Aimbot%20%26%20Feature%20Details",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2F&amp;title=Arc%20Raiders%20Cheats%20%7C%20ESP%2C%20Aimbot%20%26%20Feature%20Details",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=Arc%20Raiders%20Cheats%20%7C%20ESP%2C%20Aimbot%20%26%20Feature%20Details%20https%3A%2F%2Farc-cheats.net%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/",
+      "region": "header",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Fprivacy%2F&amp;text=Privacy%20Policy%20%E2%80%94%20Analytics%2C%20Email%20%26%20Checkout%20Data",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2Fprivacy%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Fprivacy%2F&amp;text=Privacy%20Policy%20%E2%80%94%20Analytics%2C%20Email%20%26%20Checkout%20Data",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Fprivacy%2F&amp;title=Privacy%20Policy%20%E2%80%94%20Analytics%2C%20Email%20%26%20Checkout%20Data",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=Privacy%20Policy%20%E2%80%94%20Analytics%2C%20Email%20%26%20Checkout%20Data%20https%3A%2F%2Farc-cheats.net%2Fprivacy%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/privacy/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "pre-purchase question list",
+      "normalized": "pre-purchase question list",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Arc Raiders client setup guide",
+      "normalized": "arc raiders client setup guide",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "/go/",
+      "normalized": "/go/",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "ESP stills article",
+      "normalized": "esp stills article",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "aimbot option notes",
+      "normalized": "aimbot option notes",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "account versus hardware ban primer",
+      "normalized": "account versus hardware ban primer",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Fsupport%2F&amp;text=ARC%20Raiders%20Support%3A%20Checkout%20%26%20License%20Help",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2Fsupport%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Fsupport%2F&amp;text=ARC%20Raiders%20Support%3A%20Checkout%20%26%20License%20Help",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Fsupport%2F&amp;title=ARC%20Raiders%20Support%3A%20Checkout%20%26%20License%20Help",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=ARC%20Raiders%20Support%3A%20Checkout%20%26%20License%20Help%20https%3A%2F%2Farc-cheats.net%2Fsupport%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/support/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "ARC Cheats site header",
+      "normalized": "arc cheats site header",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "Features primary nav",
+      "normalized": "features primary nav",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "ESP primary nav",
+      "normalized": "esp primary nav",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "Aimbot primary nav",
+      "normalized": "aimbot primary nav",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "Ban guide primary nav",
+      "normalized": "ban guide primary nav",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "FAQ primary nav",
+      "normalized": "faq primary nav",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "Features mobile menu",
+      "normalized": "features mobile menu",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "ESP mobile menu",
+      "normalized": "esp mobile menu",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "Aimbot mobile menu",
+      "normalized": "aimbot mobile menu",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "Ban guide mobile menu",
+      "normalized": "ban guide mobile menu",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "header",
+      "text": "FAQ mobile menu",
+      "normalized": "faq mobile menu",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Home",
+      "normalized": "home",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Share on X",
+      "normalized": "share on x",
+      "href": "https://twitter.com/intent/tweet?url=https%3A%2F%2Farc-cheats.net%2Fterms%2F&amp;text=Terms%20of%20Service%20%E2%80%94%20Licenses%2C%20Pricing%20%26%20Refunds",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Share on Facebook",
+      "normalized": "share on facebook",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Farc-cheats.net%2Fterms%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Share on Telegram",
+      "normalized": "share on telegram",
+      "href": "https://t.me/share/url?url=https%3A%2F%2Farc-cheats.net%2Fterms%2F&amp;text=Terms%20of%20Service%20%E2%80%94%20Licenses%2C%20Pricing%20%26%20Refunds",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Share on Reddit",
+      "normalized": "share on reddit",
+      "href": "https://reddit.com/submit?url=https%3A%2F%2Farc-cheats.net%2Fterms%2F&amp;title=Terms%20of%20Service%20%E2%80%94%20Licenses%2C%20Pricing%20%26%20Refunds",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Share on WhatsApp",
+      "normalized": "share on whatsapp",
+      "href": "https://wa.me/?text=Terms%20of%20Service%20%E2%80%94%20Licenses%2C%20Pricing%20%26%20Refunds%20https%3A%2F%2Farc-cheats.net%2Fterms%2F",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "ARC Cheats site footer",
+      "normalized": "arc cheats site footer",
+      "href": "/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Features",
+      "normalized": "features",
+      "href": "/#features",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "ESP",
+      "normalized": "esp",
+      "href": "/arc-raiders-esp/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Aimbot",
+      "normalized": "aimbot",
+      "href": "/arc-raiders-aimbot/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Ban guide",
+      "normalized": "ban guide",
+      "href": "/arc-raiders-account-vs-hardware-ban/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "FAQ",
+      "normalized": "faq",
+      "href": "/faq/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Pricing",
+      "normalized": "pricing",
+      "href": "/#products",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "All products",
+      "normalized": "all products",
+      "href": "/go/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Hyper-V setup guide",
+      "normalized": "hyper-v setup guide",
+      "href": "/guides/cloud-dma-setup/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "PC requirements",
+      "normalized": "pc requirements",
+      "href": "/guides/system-requirements/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Support",
+      "normalized": "support",
+      "href": "/support/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Who publishes this site",
+      "normalized": "who publishes this site",
+      "href": "/about/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Analytics and cookie notice",
+      "normalized": "analytics and cookie notice",
+      "href": "/privacy/",
+      "rel": ""
+    },
+    {
+      "page": "/terms/",
+      "region": "breadcrumb",
+      "text": "Purchase and refund rules",
+      "normalized": "purchase and refund rules",
+      "href": "/terms/",
+      "rel": ""
+    }
+  ]
+}

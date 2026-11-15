@@ -13,5 +13,6 @@ export function scrollToElement(target: HTMLElement) {
     lenis.scrollTo(target, { offset: 0, duration: 1.1 });
     return;
   }
-  target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
 }
