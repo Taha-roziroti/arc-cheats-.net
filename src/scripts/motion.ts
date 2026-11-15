@@ -122,10 +122,10 @@ function setupAnchorNavigation() {
 }
 
 function startMotion() {
-  if (started || prefersReducedMotion()) return;
+  if (started || prefersReducedMotion() || prefersLightMotion()) return;
   started = true;
 
-  const useLenis = !prefersLightMotion();
+  const useLenis = true;
 
   if (useLenis) {
     lenis = new Lenis();

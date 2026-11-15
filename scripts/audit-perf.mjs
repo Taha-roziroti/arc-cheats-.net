@@ -17,7 +17,7 @@ const TEMPLATES = [
   { name: 'home', path: '/' },
   { name: 'faq', path: '/faq/' },
   { name: 'spoke', path: '/arc-raiders-esp/' },
-  { name: 'hub', path: '/products/dota-2-cheats/' },
+  { name: 'money-ban', path: '/arc-raiders-account-vs-hardware-ban/' },
   { name: '404', path: '/404.html' },
 ];
 
@@ -32,18 +32,23 @@ function median(nums) {
 function runLighthouse(url, preset) {
   const out = path.join(projectRoot, 'audit', `lh-${preset}-${Date.now()}.json`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
+  const lhArgs = [
+    'lighthouse',
+    url,
+    '--quiet',
+    '--chrome-flags=--headless',
+    '--output=json',
+    `--output-path=${out}`,
+    '--only-categories=performance,accessibility,best-practices,seo',
+  ];
+  if (preset === 'desktop') {
+    lhArgs.push('--preset=desktop');
+  } else {
+    lhArgs.push('--form-factor=mobile');
+  }
   const r = spawnSync(
     'npx',
-    [
-      'lighthouse',
-      url,
-      '--quiet',
-      '--chrome-flags=--headless',
-      `--form-factor=${preset}`,
-      '--output=json',
-      `--output-path=${out}`,
-      '--only-categories=performance,accessibility,best-practices,seo',
-    ],
+    lhArgs,
     { cwd: projectRoot, encoding: 'utf8', shell: true, timeout: 120000 },
   );
   if (r.status !== 0) {
@@ -95,6 +100,8 @@ async function main() {
       const med = Object.fromEntries(Object.entries(scores).map(([k, v]) => [k, median(v)]));
       console.log(`audit-perf: ${tpl.name} (${preset}) median`, med);
       for (const [k, v] of Object.entries(med)) {
+        // noindex error pages are expected to score low on Lighthouse SEO
+        if (k === 'seo' && tpl.name === '404') continue;
         if (v < FLOOR) failures.push(`${tpl.name}/${preset}: ${k} median ${v} < ${FLOOR}`);
       }
     }

@@ -77,4 +77,4 @@ export const HERO_SHOWCASE_SLIDES = SHOWCASE_SHOTS.slice(0, 5).map((s) => ({
 export const PRIMARY_SHOWCASE_IMAGE = SHOWCASE_SHOTS[0]!.src;
 
 export const HERO_SECTION_BACKGROUND = '/images/hero/hero-background.webp';
-export const HERO_SECTION_LCP_PRELOAD = '/images/hero/hero-background-640.webp';
+export const HERO_SECTION_LCP_PRELOAD = '/images/hero/hero-background-400.webp';

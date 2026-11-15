@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Lighthouse raw reports (keep anchor-inventory.json)
+audit/lh-*.json

@@ -173,6 +173,13 @@ const showShareLinks = sharePaths.has(pathname.endsWith('/') ? pathname : `${pat
     </script>
     <script>
       const bootMotion = () => {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        if (
+          window.matchMedia('(max-width: 1023px)').matches ||
+          window.matchMedia('(pointer: coarse)').matches
+        ) {
+          return;
+        }
         import('../scripts/motion.ts')
           .then((m) => m.initMotion())
           .catch(() => {});
