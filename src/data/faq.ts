@@ -62,7 +62,7 @@ export const siteFaqs: SiteFaqItem[] = [
     icon: 'faqBanRisk',
     q: 'Where is the risk disclaimer?',
     a: a(
-      `Risk and publisher context sit on the ${link('hardware ban explainer', '/arc-raiders-account-vs-hardware-ban/')} and in the legal pages in the footer.`,
+      `Risk and publisher context sit on the ${link('Embark Studios ban policy primer', '/arc-raiders-account-vs-hardware-ban/')} and in the legal pages in the footer.`,
     ),
   },
   {
@@ -106,9 +106,12 @@ export function faqFilterTopicsForItems(items: SiteFaqItem[]): FaqTopic[] {
   return topics;
 }
 
+/** Shared site FAQ items omit copy duplicated on the dedicated /faq/ page. */
+const PRODUCT_EMBED_FAQ_SKIP = new Set(['risk-disclaimer', 'windows-reqs', 'feature-pages']);
+
 export function getProductFaqs(slug: string, kind: 'tier' | 'utility'): SiteFaqItem[] {
   const scoped = siteFaqs.filter((f) => f.scopes?.includes(slug));
-  const general = siteFaqs.filter((f) => !f.scopes);
+  const general = siteFaqs.filter((f) => !f.scopes && !PRODUCT_EMBED_FAQ_SKIP.has(f.id));
   const combined = kind === 'tier' ? [...scoped, ...general] : [...scoped, ...general.slice(0, 4)];
   const seen = new Set<string>();
   return combined.filter((item) => {

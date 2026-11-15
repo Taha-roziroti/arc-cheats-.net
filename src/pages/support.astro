@@ -34,28 +34,64 @@ const breadcrumbs = [
 
   <ContactSupportSection titleId="support-page-title" showTicketTips />
 
-  <article class="content-markdown border-t border-border bg-muted/10 py-10 md:py-12">
+  <article class="content-markdown support-page-shell border-t border-border bg-muted/10 py-10 md:py-12">
     <div class="mx-auto max-w-3xl px-5">
-      <h2 class="text-lg font-semibold text-foreground">Before you contact support</h2>
+      <h2>Before you contact support</h2>
       <p>
-        Check plan figures on the homepage hero, skim the <a href="/faq/">pre-purchase question list</a>, and read the
-        <a href="/guides/system-requirements/">Arc Raiders client setup guide</a> before you email support.
+        Start on the homepage hero for live plan previews (<strong>$35 monthly</strong> and <strong>$150 lifetime</strong> on the core bundle).
+        Skim the <a href="/faq/">pre-purchase question list</a>, then walk through the
+        <a href="/guides/system-requirements/">hardware requirements walkthrough</a> so tickets include hardware context instead of guesses.
       </p>
       <p>
-        Checkout happens on the vendor site linked from <a href="/go/">/go/</a>; this domain does not deliver license keys directly.
+        Checkout happens on the vendor site linked from the <a href="/go/">product checkout bridge</a>. arc-cheats.net publishes screenshots and affiliate bridges; license keys arrive from the vendor inbox named on your receipt.
+      </p>
+      <h2>Orders, licenses, and resends</h2>
+      <p>
+        Paste the full receipt, the email you used at checkout, and the product SKU exactly as printed. If a key never arrived, check spam and promotions folders before you request a resend.
+      </p>
+      <p>
+        HWID reset requests need the old and new machine IDs when the vendor policy allows transfers. Optional utilities such as spoofers or DMA add-ons follow different refund rules—quote the line item from your cart.
       </p>
       <h2>Information to include in every ticket</h2>
+      <ul>
+        <li>Windows version and build (Settings → System → About)</li>
+        <li>GPU model and driver version</li>
+        <li>Whether overlays are enabled and which module (ESP, aim, DMA)</li>
+        <li>Screenshots of errors or misaligned HUD stills, capped at five files</li>
+        <li>Timestamp and map name when crashes happen in-game</li>
+      </ul>
+      <h2>Setup and performance troubleshooting</h2>
       <p>
-        Send your order email, the product name on the receipt, your Windows build, and any error text or screenshots.
+        Compare your symptom with indoor and outdoor stills on the <a href="/arc-raiders-esp/">player and loot marker guide</a>.
+        Flickering boxes often trace to frame dips; menu stutter may mean you need to lower graphics before enabling container filters.
+      </p>
+      <p>
+        For aim module tuning, read <a href="/arc-raiders-aimbot/">FOV and smoothing field notes</a> so support does not re-explain defaults you can change client-side.
+      </p>
+      <p>
+        Shoppers evaluating DMA should finish the <a href="/guides/cloud-dma-setup/">Cloud DMA preparation article</a> and attach BIOS or hypervisor notes when indoor radar drifts.
+      </p>
+      <h2>Ban and enforcement questions</h2>
+      <p>
+        We do not operate anti-cheat systems. For factual differences between account strikes and hardware flags, read the
+        <a href="/arc-raiders-account-vs-hardware-ban/">account versus hardware enforcement guide</a> before you ask for reinstatement timelines.
       </p>
       <h2>Response expectations</h2>
       <p>
-        Email replies are manual; refund timing follows the vendor policy attached to your checkout.
+        Email replies are manual, often within one business day for US afternoons. Weekends and vendor patch days can add delay.
+        Refund eligibility, chargebacks, and subscription cancellations follow the vendor policy linked at checkout—not this domain.
       </p>
-      <h2>Feature and pricing questions</h2>
+      <h2>Affiliate and editorial questions</h2>
       <p>
-        Use the <a href="/arc-raiders-esp/">ESP stills article</a>, <a href="/arc-raiders-aimbot/">aimbot option notes</a>, and
-        <a href="/arc-raiders-account-vs-hardware-ban/">account versus hardware ban primer</a> for module detail before you open checkout.
+        Questions about commissions or how we test screenshots belong on the <a href="/affiliate-disclosure/">affiliate commission policy</a> page
+        or the <a href="/about/">independent product guides about page</a>.
+      </p>
+      <h2>Still stuck?</h2>
+      <p>
+        Use the contact cards above for the billing inbox listed on your receipt. Include “ARC Raiders” in the subject so routing skips unrelated queues.
+      </p>
+      <p>
+        If you are filing a chargeback at the same time as a support ticket, note that vendors often pause license access until the dispute closes. Finish reading the vendor refund paragraph on your receipt before you escalate on two channels at once.
       </p>
     </div>
   </article>

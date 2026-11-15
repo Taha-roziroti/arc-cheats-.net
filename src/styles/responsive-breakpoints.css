@@ -12,6 +12,16 @@
   .guide-page-shell h1 {
     font-size: 1.75rem;
   }
+  .support-page-shell,
+  .contact-page-shell {
+    padding-inline: 1rem;
+  }
+  .support-section__inner {
+    padding-inline: 1rem;
+  }
+  .support-section__cards {
+    grid-template-columns: 1fr;
+  }
   .share-links {
     padding-inline: 1rem;
   }
@@ -28,6 +38,13 @@
   }
   .guide-page-shell {
     padding-inline: 1.25rem;
+  }
+  .support-page-shell .mx-auto,
+  .contact-page-shell .mx-auto {
+    max-width: 40rem;
+  }
+  .support-section__cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 

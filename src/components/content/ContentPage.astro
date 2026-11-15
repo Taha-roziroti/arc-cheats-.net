@@ -133,10 +133,10 @@ const pageFaqTopics = pageFaqs ? faqFilterTopicsForItems(pageFaqs) : [];
         </div>
       </section>
     ) : (
-      <article class="border-b border-border bg-muted/20 py-10 md:py-14">
+      <article class="content-markdown guide-page-shell border-b border-border bg-muted/20 py-10 md:py-14">
         <div class="mx-auto max-w-6xl px-5">
           <Breadcrumbs items={breadcrumbs} class="mb-6 md:mb-8" />
-          <div class="content-markdown mt-2 max-w-3xl" data-content-body>
+          <div class="mt-2 max-w-3xl" data-content-body>
             {FullContent ? <FullContent /> : null}
             <ContentFigures figures={data.figures} />
             {data.showAdditionalCostsCallout ? (

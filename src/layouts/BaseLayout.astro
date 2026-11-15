@@ -49,8 +49,7 @@ const {
 const pathname = Astro.url.pathname;
 const routeOgImage = ogImageForPath(pathname);
 const ogImage = ogImageProp ?? routeOgImage;
-const legacyNoindex = pathname.startsWith('/products/dota-2-cheats');
-const resolvedNoindex = noindex || legacyNoindex;
+const resolvedNoindex = noindex;
 const robotsContent = resolvedNoindex
   ? 'noindex, follow'
   : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';

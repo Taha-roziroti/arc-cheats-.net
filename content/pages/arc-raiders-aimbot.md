@@ -1,10 +1,10 @@
 ---
-title: "Arc Raiders Aimbot | FOV & Targeting Options"
+title: "Arc Raiders Aimbot | FOV, Features & Plan Details"
 description: "Review Arc Raiders aimbot controls, including FOV, smoothing, speed, stickiness and visibility checks. See the feature list and current plan details."
 slug: "/arc-raiders-aimbot/"
 ---
 
-# Arc Raiders Aimbot
+# Arc Raiders Aimbot Feature Details
 
 Aim assist modules share the same HUD space as extraction timers and breach lighting. Use the indoor captures here to discuss FOV rings, smoothing sliders, and visibility checks with your vendor—this page does not ship binaries or settings files.
 

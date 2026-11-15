@@ -48,7 +48,7 @@ export const en: Translations = {
     status: 'Windows 10 and 11',
     eyebrow: PLACEHOLDER_COPY.eyebrow,
     titleLine1: 'Arc Raiders Cheats',
-    titleLine2: 'Live ESP and loot stills',
+    titleLine2: 'ESP, Aimbot & Feature Details',
     subtitle: PLACEHOLDER_COPY.subtitle,
     ctaPrimary: PLACEHOLDER_COPY.cta,
     ctaDiscord: 'Ban guide',
@@ -422,20 +422,59 @@ export const en: Translations = {
   },
   legalPages: {
     about: {
-      title: `About ${PLACEHOLDER_COPY.siteName}`,
-      description: `Who publishes ${SITE_DOMAIN} and how guides relate to checkout.`,
+      title: 'Independent ARC Raiders Product Guides',
+      description: `Who publishes ${SITE_DOMAIN}, how we test screenshots, and how affiliate checkout works.`,
       sections: [
         {
           heading: 'Publisher',
           paragraphs: [
-            `${PLACEHOLDER_COPY.siteName} documents ARC Raiders modules with screenshots and links to affiliate checkout.`,
-            'This site is independent and is not endorsed by the game publisher.',
+            `${PLACEHOLDER_COPY.siteName} is an independent editorial site. We document ARC Raiders ESP, aim modules, and ban-risk context with dated screenshots—not developer patches or private binaries.`,
+            'We are not endorsed by Embark Studios or any anti-cheat vendor. Vendor licenses ship only after you finish payment on the affiliate checkout bridge.',
           ],
         },
         {
           heading: 'What we publish',
           paragraphs: [
-            'Feature guides, requirement checklists, and FAQs that point to the same showcase stills shown on the homepage.',
+            'Money pages cover ESP overlays, aimbot controls, and plan tables tied to the same showcase set as the homepage hero.',
+            'Support articles explain Windows builds, DMA add-ons when verified, and the difference between account and hardware enforcement.',
+          ],
+        },
+        {
+          heading: 'How we earn',
+          paragraphs: [
+            'Some checkout links are affiliate URLs. Commissions do not change list prices on the vendor page. Read the on-site disclosure before you buy.',
+            'Checkout bridges under /go/ are excluded from search indexing so crawlers focus on guides, not interim redirect HTML.',
+          ],
+        },
+        {
+          heading: 'Proof we show shoppers',
+          paragraphs: [
+            'Each module page links to full-resolution stills with alt text describing what is visible—distance readouts, loot filters, menu tabs, and indoor breach lighting.',
+            'We list monthly and lifetime figures in the hero ($35 / $150) as previews; the vendor checkout shows the binding USD total.',
+            'When Embark ships a lighting or UI change, we replace stills and adjust copy instead of leaving outdated claims live.',
+          ],
+        },
+        {
+          heading: 'How guides stay independent',
+          paragraphs: [
+            'Navigation order follows shopper intent—ESP, aim, bans, requirements—not partner payouts.',
+            'We do not accept payment to reorder feature lists or hide risk notes on the ban primer.',
+            'Negative experiences belong in vendor reviews; we document what screenshots show on our rigs, not live detection telemetry.',
+          ],
+        },
+        {
+          heading: 'Contact and corrections',
+          paragraphs: [
+            'Use the contact page to report broken links, wrong plan copy, or accessibility issues on money URLs.',
+            'License resends, HWID resets, and refunds stay with the vendor inbox printed on your receipt.',
+          ],
+        },
+        {
+          heading: 'United States shoppers',
+          paragraphs: [
+            'Copy targets PC players researching modules in English. Prices preview in USD; tax lines appear on the vendor cart based on your billing address.',
+            'Affiliate disclosure satisfies labeling expectations for US readers; international shoppers should still read vendor terms in their jurisdiction.',
+            'Support hours follow US business-day patterns even though vendors may answer globally.',
           ],
         },
       ],

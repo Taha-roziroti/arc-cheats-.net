@@ -35,7 +35,9 @@ const relatedPosts = [
               <button class="forum-vote__up" type="button" data-vote-up aria-label="Upvote this discussion"><Icon name="chevronDown" size={17} /></button><strong data-vote-count>{post.upvotes}</strong><button type="button" disabled aria-label="Downvoting is unavailable"><Icon name="chevronDown" size={17} /></button>
             </div>
             <div class="forum-detail-content">
-              <div class="forum-post-meta"><span class={`forum-community-avatar tone-${post.categoryTone}`}><Icon name="users" size={15} /></span><a href="/forum/" class="forum-community-name">d/{post.category.toLowerCase().replaceAll(' ', '')}</a><span>·</span><span><Icon name="userRound" size={13} /> Moderator placeholder</span><span>Guide-based Q&amp;A</span></div>
+              <div class="forum-post-meta"><span class={`forum-community-avatar tone-${post.categoryTone}`}><Icon name="users" size={15} /></span><a href="/forum/#communities" class="forum-community-name">
+                {post.category} forum hub
+              </a><span>·</span><span><Icon name="userRound" size={13} /> Moderator placeholder</span><span>Guide-based Q&amp;A</span></div>
               <h1>{post.title}</h1>
               {post.flair && <span class={`forum-flair tone-${post.categoryTone}`}>{post.flair}</span>}
               <div class="forum-detail-copy">{post.body.map((paragraph) => <p>{paragraph}</p>)}</div>

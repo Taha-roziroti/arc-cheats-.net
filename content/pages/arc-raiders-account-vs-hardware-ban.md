@@ -1,5 +1,5 @@
 ---
-title: "Arc Raiders Account vs Hardware Ban Guide"
+title: "Arc Raiders Account vs Hardware Ban Guide Explained"
 description: "Learn how Arc Raiders account and hardware bans differ, review official enforcement details, and check the facts before contacting support."
 slug: "/arc-raiders-account-vs-hardware-ban/"
 ---
@@ -24,7 +24,7 @@ Launcher messages change between patches. Document the exact text and timestamp 
 
 ## What Embark says about anti-cheat enforcement
 
-Read the current terms and anti-cheat statements on Embark-owned channels before purchasing any overlay software. Our [affiliate disclosure](/affiliate-disclosure/) explains how checkout links work on arc-cheats.net.
+Read the current terms and anti-cheat statements on Embark-owned channels before purchasing any overlay software. Our [checkout commission statement](/affiliate-disclosure/) explains how affiliate links work on arc-cheats.net.
 
 ## Frequently asked questions about Arc Raiders bans
 

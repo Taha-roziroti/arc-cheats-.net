@@ -1,5 +1,5 @@
 ---
-title: "Arc Raiders ESP | Player, Loot & Container ESP"
+title: "Arc Raiders ESP Guide | Player, Loot & Container Markers"
 description: "See Arc Raiders ESP: player overlays, loot filters, containers, ARC markers and extraction points. Compare features before checkout."
 slug: "/arc-raiders-esp/"
 ---

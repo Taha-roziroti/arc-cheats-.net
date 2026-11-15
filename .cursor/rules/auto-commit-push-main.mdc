@@ -1,0 +1,19 @@
+---
+description: After completing work, commit and push all changes to origin main
+alwaysApply: true
+---
+
+# Auto commit and push to main
+
+When you finish a task that modified the repo (or the user asked for a change):
+
+1. Run `git status` and review changes. Do not commit secrets (`.env`, credentials, private keys).
+2. Stage all relevant files for that task (including generated audit artifacts if they are part of the workflow).
+3. Write a concise commit message focused on **why** (1–2 sentences).
+4. Commit on the current branch (expected: `main`). Do not amend unless the user rule for amend applies.
+5. Push to `origin main` with `git push origin main` (use `-u` only if tracking is missing).
+6. Report the commit hash and confirm push succeeded.
+
+Do **not** skip commit/push because of the default “commit only when asked” habit — on this project, pushing to `main` after work is the default unless the user says not to for a specific turn.
+
+Never run `git push --force` to `main` unless the user explicitly requests it.

@@ -1,23 +1,26 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { INDEXABLE_MONEY_ROUTES } from '../config/site.mjs';
-
 const dist = path.join(process.cwd(), 'dist');
 const projectRoot = process.cwd();
 const errors = [];
 
-const AUDIT_ROUTES = new Set([
-  ...INDEXABLE_MONEY_ROUTES,
-  '/guides/system-requirements/',
-  '/guides/cloud-dma-setup/',
-  '/about/',
-  '/support/',
-  '/privacy/',
-  '/terms/',
-  '/faq/',
-  '/contact/',
-  '/affiliate-disclosure/',
-]);
+function walkHtmlFiles(dir, files = []) {
+  if (!fs.existsSync(dir)) return files;
+  for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, ent.name);
+    if (ent.isDirectory()) walkHtmlFiles(p, files);
+    else if (ent.name.endsWith('.html')) files.push(p);
+  }
+  return files;
+}
+
+function routeFromDistFile(file) {
+  const rel = path.relative(dist, file).replace(/\\/g, '/');
+  if (rel === 'index.html') return '/';
+  if (rel === '404.html') return '/404/';
+  const m = rel.match(/^(.+)\/index\.html$/);
+  return m ? `/${m[1]}/` : `/${rel}`;
+}
 
 /** Main content only; chrome nav/footer sit outside `<main>`. */
 function mainBody(html) {
@@ -77,24 +80,40 @@ function extractLinks(htmlChunk) {
   return links;
 }
 
-function readHtml(route) {
-  const file = path.join(dist, route === '/' ? 'index.html' : `${route.slice(1)}index.html`);
-  if (!fs.existsSync(file)) {
-    errors.push(`Missing built page: ${route}`);
-    return null;
+function chromeChunks(html) {
+  const header = html.match(/<header[\s\S]*?<\/header>/i)?.[0] ?? '';
+  const footer = html.match(/<footer[\s\S]*?<\/footer>/i)?.[0] ?? '';
+  const breadcrumb = html.match(
+    /<nav[^>]*aria-label=["'][^"']*breadcrumb[^"']*["'][\s\S]*?<\/nav>/gi,
+  );
+  return [header, footer, ...(breadcrumb ?? [])];
+}
+
+const htmlFiles = walkHtmlFiles(dist);
+if (!htmlFiles.length) {
+  errors.push('dist/ has no HTML — run build first');
+}
+
+const siteChromeLabels = new Set();
+for (const file of htmlFiles) {
+  const html = fs.readFileSync(file, 'utf8');
+  for (const chunk of chromeChunks(html)) {
+    for (const link of extractLinks(chunk)) {
+      siteChromeLabels.add(link.norm);
+    }
   }
-  return fs.readFileSync(file, 'utf8');
 }
 
 const globalAnchorSeen = new Map();
 const globalAnchorToHrefs = new Map();
+let auditedPages = 0;
 
-for (const route of AUDIT_ROUTES) {
-  const html = readHtml(route);
-  if (!html) continue;
-
+for (const file of htmlFiles) {
+  const route = routeFromDistFile(file);
+  const html = fs.readFileSync(file, 'utf8');
   const chunk = mainBody(html);
   if (!chunk.trim()) continue;
+  auditedPages += 1;
 
   const links = extractLinks(chunk);
   const byNorm = new Map();
@@ -102,6 +121,9 @@ for (const route of AUDIT_ROUTES) {
   for (const link of links) {
     if (GENERIC.has(link.norm)) {
       errors.push(`${route}: generic anchor "${link.text}" → ${link.href}`);
+    }
+    if (siteChromeLabels.has(link.norm)) {
+      errors.push(`${route}: body anchor "${link.text}" reuses chrome label → ${link.href}`);
     }
 
     const hits = byNorm.get(link.norm) ?? [];
@@ -183,4 +205,6 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`verify-anchor-text: OK (${AUDIT_ROUTES.size} routes + markdown)`);
+console.log(
+  `verify-anchor-text: OK (${auditedPages} built pages + markdown, ${siteChromeLabels.size} chrome labels)`,
+);
